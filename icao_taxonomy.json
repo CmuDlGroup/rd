@@ -1,0 +1,5582 @@
+{
+  "metadata": {
+    "source": "ICAO ADREP Taxonomy",
+    "version": "1.3.0.12",
+    "extraction_date": "2025-11-11T17:06:48.266744",
+    "documents_processed": [
+      "explanatory_factors",
+      "occurrence_categories",
+      "explanatory_factors"
+    ]
+  },
+  "occurrence_categories": {
+    "ADRM": {
+      "name": "Aerodrome)",
+      "description": " • Includes deficiencies/issues associated with State-approved Aerodrome runways, taxiways, ramp area, parking area, buildings and structures, Crash/Fire/Rescue (CFR) services, obstacles on the Aerodrome property, lighting, markings, signage, procedures, policies, and standards. • Examples include closed runways, improperly marked runways, construction interference, lighting failures, signage limitations, etc. • Occurrences do not necessarily involve an aircraft. • Effects of Aerodrome design ar",
+      "code": "ADRM",
+      "examples": [
+        "closed runways",
+        "improperly marked runways",
+        "construction interference"
+      ],
+      "number": "24"
+    },
+    "AMAN": {
+      "name": "Abrupt maneuvre)",
+      "description": " • This category includes the intentional maneuvering of the aircraft to avoid a collision with terrain, objects/obstacles, weather or other aircraft (Note: The effect of intentional maneuvering is the key consideration). • Abrupt maneuvering may also result in a loss of control or system/component failure or malfunction. In this case, the event is coded under both categories (e.g., AMAN and Loss of Control–Inflight (LOC–I), AMAN and System/Component Failure or Malfunction (Non- Powerplant) (SCF",
+      "code": "AMAN",
+      "examples": [
+        "the intentional maneuvering of the aircraft to avoid a collision with terrain",
+        "objects/obstacles",
+        "weather or other aircraft (Note: The effect of intentional maneuvering is the key consideration)."
+      ],
+      "number": "1"
+    },
+    "ARC": {
+      "name": "Abnormal runway contact)",
+      "description": "ABNORMAL RUNWAY CONTACT (ARC) Any landing or takeoff involving abnormal runway or landing surface contact. • Events such as hard/heavy landings, long/fast landings, off center landings, crabbed landings, nose wheel first touchdown, tail strikes, and wingtip/nacelle strikes are included in this category. • Gear-up landings are also recorded here. However, if a system/component failure or malfunction occurred, which led to the gear up landing, the event is also coded under the appropriate system/c",
+      "code": "ARC",
+      "examples": [
+        "hard/heavy landings",
+        "long/fast landings",
+        "off center landings"
+      ],
+      "number": "2"
+    },
+    "BIRD": {
+      "name": "Birdstrike)",
+      "description": "A collision / near collision with or ingestion of one or several birds. • May occur in any phase of flight",
+      "code": "BIRD",
+      "examples": [],
+      "number": "29"
+    },
+    "CABIN": {
+      "name": "Cabin safety events)",
+      "description": "29 April 2013 Attribute Values Page 2 of 8",
+      "code": "CABIN",
+      "examples": [],
+      "number": "26"
+    },
+    "GCOL": {
+      "name": "Ground Collision)",
+      "description": " • Includes collisions with an aircraft, person, ground vehicle, obstacle, building, structure, etc. while on a surface other than the runway used for landing or intended for takeoff. • Ground collisions resulting from events categorized under Runway Incursion (RI), Wildlife (WILD) or Ground Handling (RAMP) are excluded from this category.",
+      "code": "GCOL",
+      "examples": [
+        "collisions with an aircraft",
+        "ground vehicle"
+      ],
+      "number": "9"
+    },
+    "LOC-G": {
+      "name": "Loss of control - ground)",
+      "description": "29 April 2013 Attribute Values Page 4 of 8",
+      "code": "LOC-G",
+      "examples": [],
+      "number": "12"
+    },
+    "LOC-I": {
+      "name": "Loss of control - inflight)",
+      "description": "• NOTE: excluding rotorcraft air taxi phase of flight. • NOTE: includes maneuvering at low height while searching for an off-aerodrome landing location. Do not use LALT in conjunction with CFIT. Loss of aircraft control while the aircraft is on the ground (LOC-G: Loss of control - ground) 12 29 April 2013 Attribute Values Page 4 of 8",
+      "code": "LOC-I",
+      "examples": [
+        "maneuvering at low height while searching for an off-aerodrome landing location."
+      ],
+      "number": "13"
+    },
+    "LOLI": {
+      "name": "Loss of lifting conditions en-route)",
+      "description": " • Applicable only to aircraft that rely on static lift to maintain or increase flight altitude, namely sailplanes, gliders, hang gliders and paragliders, balloons and airships. • All static lift forms to be considered, including atmospheric lift, namely from Orographic, Thermal, Mountain Wave and Convergence Zone, and buoyancy lift namely from lighter than air gas or hot air. • Also include motorglider and paramotor aircraft if operating under static atmospheric lift conditions and the engine c",
+      "code": "LOLI",
+      "examples": [],
+      "number": "103"
+    },
+    "RAMP": {
+      "name": "Ground Handling)",
+      "description": "• Failures or malfunctions of the onboard external load handling lifting equipment or release systems should be coded under SCF-NP, as these are considered to be aircraft systems. Fire or smoke in or on the aircraft, in flight or on the ground, which is not the result of impact. (F-NI: Fire/smoke 5 (non-impact)) • Includes fire due to a combustive explosion from an accidental ignition source. • Includes fire and smoke from system/component failures/malfunctions in the cockpit, passenger cabin, o",
+      "code": "RAMP",
+      "examples": [
+        "fire due to a combustive explosion from an accidental ignition source."
+      ],
+      "number": "8"
+    },
+    "RE": {
+      "name": "Runway excursion)",
+      "description": " • Only applicable during either the takeoff or landing phase • The excursion may be intentional or unintentional. For example, the deliberate veer off to avoid a collision, brought about by a Runway Incursion. In this case, code both categories • Use RE in all cases where the aircraft left the runway/helipad/helideck regardless of whether the excursion was the consequence of another event or not. Any occurrence at an aerodrome involving the incorrect presence of an aircraft, vehicle or person o",
+      "code": "RE",
+      "examples": [],
+      "number": "15"
+    },
+    "TURB": {
+      "name": "Turbulence encounter)",
+      "description": "appropriate. • Includes heliports (excludes unprepared or natural landing sites). • Includes loose foreign objects on aerodromes and on heliports (excludes unprepared or natural landing sites). Includes failure of winch launch equipment for gliders. The intentional abrupt maneuvering of the aircraft by the flight crew. (AMAN: Abrupt maneuvre) 1 • This category includes the intentional maneuvering of the aircraft to avoid a collision with terrain, objects/obstacles, weather or other aircraft (Not",
+      "code": "TURB",
+      "examples": [
+        "heliports (excludes unprepared or natural landing sites).",
+        "loose foreign objects on aerodromes and on heliports (excludes unprepared or natural landing sites).",
+        "failure of winch launch equipment for gliders."
+      ],
+      "number": "21"
+    },
+    "UIMC": {
+      "name": "Unintended flight in IMC)",
+      "description": " • May be used as a precursor to CFIT, LOC-I or LALT. • Applicable if the pilot was flying according to Visual Flight Rules (VFR), as defined in Annex 2 – Rules of the Air – to the Convention on International Civil Aviation and by any reason found oneself inadvertently in IMC • Only to be used when loss of visual references is encountered, • Only to be used if pilot not qualified to fly in IMC and/or aircraft not equipped to fly in IMC A touchdown off the runway surface. (USOS: Undershoot/oversh",
+      "code": "UIMC",
+      "examples": [],
+      "number": "100"
+    },
+    "WSTRW": {
+      "name": "Windshear or thunderstorm.)",
+      "description": "appropriate. • Includes heliports (excludes unprepared or natural landing sites). • Includes loose foreign objects on aerodromes and on heliports (excludes unprepared or natural landing sites). Includes failure of winch launch equipment for gliders. The intentional abrupt maneuvering of the aircraft by the flight crew. (AMAN: Abrupt maneuvre) 1 • This category includes the intentional maneuvering of the aircraft to avoid a collision with terrain, objects/obstacles, weather or other aircraft (Not",
+      "code": "WSTRW",
+      "examples": [
+        "heliports (excludes unprepared or natural landing sites).",
+        "loose foreign objects on aerodromes and on heliports (excludes unprepared or natural landing sites).",
+        "failure of winch launch equipment for gliders."
+      ],
+      "number": "23"
+    },
+    "OTHR": {
+      "name": "Other)",
+      "description": "This category includes any occurrence type that is not covered by any other category. 29 April 2013 Attribute Values Page 7 of 8",
+      "code": "OTHR",
+      "examples": [
+        "any occurrence type that is not covered by any other category."
+      ],
+      "number": "98"
+    },
+    "UNK": {
+      "name": "Unknown or undetermined)",
+      "description": " • Includes cases where the aircraft is missing. • Includes those occurrences where there is not enough information at hand to classify the occurrence or where additional information is expected in due course to better classify the occurrence. 29 April 2013 Attribute Values Page 8 of 8",
+      "code": "UNK",
+      "examples": [
+        "cases where the aircraft is missing.",
+        "those occurrences where there is not enough information at hand to classify the occurrence or where additional information is expected in due course to better classify the occurrence."
+      ],
+      "number": "99"
+    },
+    "ATM": {
+      "name": "Occurrences involving Air traffic management or communications, navigation, or surveillance service issues",
+      "description": "Occurrences involving Air traffic management or communications, navigation, or surveillance service issues",
+      "code": "ATM",
+      "examples": []
+    },
+    "CFIT": {
+      "name": "Inflight collision or near collision with terrain, water, or obstacle without indication of loss of control",
+      "description": "Inflight collision or near collision with terrain, water, or obstacle without indication of loss of control",
+      "code": "CFIT",
+      "examples": []
+    },
+    "FUEL": {
+      "name": "Powerplant issues due to fuel exhaustion, starvation, contamination or wrong fuel",
+      "description": "Powerplant issues due to fuel exhaustion, starvation, contamination or wrong fuel",
+      "code": "FUEL",
+      "examples": []
+    },
+    "ICE": {
+      "name": "Accumulation of snow, ice, freezing rain, or frost on aircraft surfaces",
+      "description": "Accumulation of snow, ice, freezing rain, or frost on aircraft surfaces",
+      "code": "ICE",
+      "examples": []
+    },
+    "MAC": {
+      "name": "Airprox, ACAS alerts, loss of separation, near collisions between aircraft",
+      "description": "Airprox, ACAS alerts, loss of separation, near collisions between aircraft",
+      "code": "MAC",
+      "examples": []
+    },
+    "RI": {
+      "name": "Runway incursion - vehicle, aircraft or person",
+      "description": "Runway incursion - vehicle, aircraft or person",
+      "code": "RI",
+      "examples": []
+    },
+    "SCF-NP": {
+      "name": "Failure or malfunction of an aircraft system or component - other than powerplant",
+      "description": "Failure or malfunction of an aircraft system or component - other than powerplant",
+      "code": "SCF-NP",
+      "examples": []
+    },
+    "SCF-PP": {
+      "name": "Failure or malfunction of an aircraft system or component - related to powerplant",
+      "description": "Failure or malfunction of an aircraft system or component - related to powerplant",
+      "code": "SCF-PP",
+      "examples": []
+    }
+  },
+  "explanatory_factors": {
+    "100000000": {
+      "name": "Undefined (Undefined",
+      "code": "100000000",
+      "description": "",
+      "subcategories": {},
+      "page": 113
+    },
+    "105000000": {
+      "name": "Experience, knowledge and recency (Experience & knowledge",
+      "code": "105000000",
+      "description": "",
+      "subcategories": {
+        "105030000": {
+          "name": "Inadequate or inaccurate knowledge (Adequacy of knowledge",
+          "code": "105030000",
+          "description": "",
+          "page": 2
+        },
+        "105030400": {
+          "name": "Aeronautical knowledge (Aeronautical knowledge",
+          "code": "105030400",
+          "description": "",
+          "page": 2
+        },
+        "105030500": {
+          "name": "Aircraft systems knowledge (Aircraft system knowledge",
+          "code": "105030500",
+          "description": "",
+          "page": 2
+        },
+        "105030200": {
+          "name": "Lack of up-to-date knowledge (Current knowledge",
+          "code": "105030200",
+          "description": "",
+          "page": 2
+        },
+        "105030100": {
+          "name": "General knowledge (General knowledge",
+          "code": "105030100",
+          "description": "",
+          "page": 2
+        },
+        "105030700": {
+          "name": "Knowledge of flight rules (Knowledge of flight rules",
+          "code": "105030700",
+          "description": "",
+          "page": 2
+        },
+        "105030600": {
+          "name": "Knowledge of procedures (Knowledge of procedures",
+          "code": "105030600",
+          "description": "",
+          "page": 2
+        },
+        "105030604": {
+          "name": "Knowledge of aerodrome procedures (Aerodrome procedures",
+          "code": "105030604",
+          "description": "",
+          "page": 2
+        },
+        "105030603": {
+          "name": "Knowledge of air traffic management procedures (ATM procedures",
+          "code": "105030603",
+          "description": "",
+          "page": 2
+        },
+        "105030601": {
+          "name": "Knowledge of company procedures and policies (Company policies",
+          "code": "105030601",
+          "description": "",
+          "page": 2
+        },
+        "105030602": {
+          "name": "Knowledge of flight procedures (Flight procedures",
+          "code": "105030602",
+          "description": "",
+          "page": 2
+        },
+        "105030605": {
+          "name": "Knowledge of engineering maintenance procedures (Maintenance procedures",
+          "code": "105030605",
+          "description": "",
+          "page": 2
+        },
+        "105030900": {
+          "name": "Meteorological knowledge (Meteorological knowledge",
+          "code": "105030900",
+          "description": "",
+          "page": 2
+        },
+        "105030300": {
+          "name": "Knowledge of regulatory requirements (Regulatory requirements",
+          "code": "105030300",
+          "description": "",
+          "page": 2
+        },
+        "105030800": {
+          "name": "Self briefing factors (Self briefing factors",
+          "code": "105030800",
+          "description": "",
+          "page": 2
+        },
+        "105031000": {
+          "name": "Other knowledge factors (Other knowledge factors",
+          "code": "105031000",
+          "description": "",
+          "page": 2
+        },
+        "105010000": {
+          "name": "Personal experience and qualifications (Experience & qualification",
+          "code": "105010000",
+          "description": "",
+          "page": 2
+        },
+        "105010200": {
+          "name": "Personal experience (Personal experience",
+          "code": "105010200",
+          "description": "",
+          "page": 2
+        },
+        "105010202": {
+          "name": "Experience in position (Experience in position",
+          "code": "105010202",
+          "description": "",
+          "page": 2
+        },
+        "105010204": {
+          "name": "Experience of aerodrome (Experience of aerodrome",
+          "code": "105010204",
+          "description": "",
+          "page": 2
+        },
+        "105010203": {
+          "name": "Experience on aircraft type (Experience of aircraft type",
+          "code": "105010203",
+          "description": "",
+          "page": 2
+        },
+        "105010205": {
+          "name": "Experience of route (Experience of route",
+          "code": "105010205",
+          "description": "",
+          "page": 3
+        },
+        "105010206": {
+          "name": "Instrument flying experience (Instrument flying",
+          "code": "105010206",
+          "description": "",
+          "page": 3
+        },
+        "105010201": {
+          "name": "Total hours/years experience (Total hours/years",
+          "code": "105010201",
+          "description": "",
+          "page": 3
+        },
+        "105010207": {
+          "name": "Other experience factors (Other experience factors",
+          "code": "105010207",
+          "description": "",
+          "page": 3
+        },
+        "105010100": {
+          "name": "Qualifications/licences/ratings (Qualifications",
+          "code": "105010100",
+          "description": "",
+          "page": 3
+        },
+        "105010300": {
+          "name": "Use of tools and equipment (Use of tools and equipment",
+          "code": "105010300",
+          "description": "",
+          "page": 3
+        },
+        "105020000": {
+          "name": "Recency factors (Recency factors",
+          "code": "105020000",
+          "description": "",
+          "page": 3
+        },
+        "105020600": {
+          "name": "Recent experience in operational activity (Experience-operational",
+          "code": "105020600",
+          "description": "",
+          "page": 3
+        },
+        "105020100": {
+          "name": "Recency in position (Recency in position",
+          "code": "105020100",
+          "description": "",
+          "page": 3
+        },
+        "105020200": {
+          "name": "Recency on aircraft type (Recency on aircraft type",
+          "code": "105020200",
+          "description": "",
+          "page": 3
+        },
+        "105020500": {
+          "name": "Recent experience with IFR (Recent experience-IFR",
+          "code": "105020500",
+          "description": "",
+          "page": 3
+        },
+        "105020400": {
+          "name": "Recent experience with route (Recent experience-route",
+          "code": "105020400",
+          "description": "",
+          "page": 3
+        },
+        "105020300": {
+          "name": "Recent experience with aerodrome (With aerodrome",
+          "code": "105020300",
+          "description": "",
+          "page": 3
+        },
+        "105020700": {
+          "name": "Other recency factor (Other recency factor",
+          "code": "105020700",
+          "description": "",
+          "page": 3
+        }
+      },
+      "page": 2
+    },
+    "102000000": {
+      "name": "Human physiology (Human physiology",
+      "code": "102000000",
+      "description": "",
+      "subcategories": {
+        "102010000": {
+          "name": "Illness/incapacitation (Illness/incapacitation",
+          "code": "102010000",
+          "description": "",
+          "page": 3
+        },
+        "102010100": {
+          "name": "Mortality (Mortality",
+          "code": "102010100",
+          "description": "",
+          "page": 3
+        },
+        "102010200": {
+          "name": "Illness (Illness",
+          "code": "102010200",
+          "description": "",
+          "page": 3
+        },
+        "102010201": {
+          "name": "Illness gastro-enteritis/food poisoning (Illness-food poisoning",
+          "code": "102010201",
+          "description": "",
+          "page": 3
+        },
+        "102010202": {
+          "name": "Vertigo/dizziness (Vertigo/dizziness",
+          "code": "102010202",
+          "description": "",
+          "page": 3
+        },
+        "102010300": {
+          "name": "Pre-existing injury (Pre-existing injury",
+          "code": "102010300",
+          "description": "",
+          "page": 3
+        },
+        "102010400": {
+          "name": "Heart attack (Heart attack",
+          "code": "102010400",
+          "description": "",
+          "page": 3
+        },
+        "102010500": {
+          "name": "Hypoxia/anoxia (Hypoxia/anoxia",
+          "code": "102010500",
+          "description": "",
+          "page": 4
+        },
+        "102010600": {
+          "name": "Hyperventilation (Hyperventilation",
+          "code": "102010600",
+          "description": "",
+          "page": 4
+        },
+        "102010700": {
+          "name": "Carbon monoxide poisoning (Carbon monoxide poisoning",
+          "code": "102010700",
+          "description": "",
+          "page": 4
+        },
+        "102010800": {
+          "name": "Reaction to toxic fumes (Reaction to toxic fumes",
+          "code": "102010800",
+          "description": "",
+          "page": 4
+        },
+        "102010900": {
+          "name": "Loss of consciousness/fainting (Loss of consciousness",
+          "code": "102010900",
+          "description": "",
+          "page": 4
+        },
+        "102011000": {
+          "name": "Motion sickness (Motion sickness",
+          "code": "102011000",
+          "description": "",
+          "page": 4
+        },
+        "102011100": {
+          "name": "Visual disturbance (Visual disturbance",
+          "code": "102011100",
+          "description": "",
+          "page": 4
+        },
+        "102011200": {
+          "name": "Human impairment-decompression/diving (Impairment-diving",
+          "code": "102011200",
+          "description": "",
+          "page": 4
+        },
+        "102011201": {
+          "name": "Impairment-decompression (Impairment-decompression",
+          "code": "102011201",
+          "description": "",
+          "page": 4
+        },
+        "102011202": {
+          "name": "Impairment-trapped gas effects (Impairment-trapped gas",
+          "code": "102011202",
+          "description": "",
+          "page": 4
+        },
+        "102011203": {
+          "name": "Impairment-underwater diving (Impairment-underwater diving",
+          "code": "102011203",
+          "description": "",
+          "page": 4
+        },
+        "102011300": {
+          "name": "Medical history (Medical history",
+          "code": "102011300",
+          "description": "",
+          "page": 4
+        },
+        "102020000": {
+          "name": "Human impairment-health/fitness/lifestyle (Impairment-fitness lack",
+          "code": "102020000",
+          "description": "",
+          "page": 4
+        },
+        "102020100": {
+          "name": "Impairment-stress symptoms (Impairment-stress",
+          "code": "102020100",
+          "description": "",
+          "page": 4
+        },
+        "102020200": {
+          "name": "Impairment-degree of fitness (Impairment-fitness",
+          "code": "102020200",
+          "description": "",
+          "page": 4
+        },
+        "102020300": {
+          "name": "Impairment-degree of obesity (Impairment-obesity",
+          "code": "102020300",
+          "description": "",
+          "page": 4
+        },
+        "102020400": {
+          "name": "Impairment-diet/meals/meal breaks (Impairment-food intake",
+          "code": "102020400",
+          "description": "",
+          "page": 4
+        },
+        "102020500": {
+          "name": "Impairment-blood/sugar level (Impairment-blood/sugar",
+          "code": "102020500",
+          "description": "",
+          "page": 4
+        },
+        "102020600": {
+          "name": "Impairment-chronic alcohol abuse (Impairment-use of alcohol",
+          "code": "102020600",
+          "description": "",
+          "page": 4
+        },
+        "102020700": {
+          "name": "Impairment-alcohol/blood level (Impairment-alcohol level",
+          "code": "102020700",
+          "description": "",
+          "page": 4
+        },
+        "102020800": {
+          "name": "Impairment-alcohol consumption (Impairment-alcohol intake",
+          "code": "102020800",
+          "description": "",
+          "page": 4
+        },
+        "102020900": {
+          "name": "Impairment-alcohol hangover (Impairment-alcohol effect",
+          "code": "102020900",
+          "description": "",
+          "page": 4
+        },
+        "102021000": {
+          "name": "Impairment-self medication (Impairment-self treatment",
+          "code": "102021000",
+          "description": "",
+          "page": 4
+        },
+        "102021100": {
+          "name": "Impairment-prescription medication (Impairment-prescription",
+          "code": "102021100",
+          "description": "",
+          "page": 5
+        },
+        "102021200": {
+          "name": "Impairment-barred drugs (Impairment-barred drugs",
+          "code": "102021200",
+          "description": "",
+          "page": 5
+        },
+        "102021300": {
+          "name": "Impairment-stimulants (Impairment-stimulants",
+          "code": "102021300",
+          "description": "",
+          "page": 5
+        },
+        "102021400": {
+          "name": "Impairment-illicit drugs (Impairment-illicit drugs",
+          "code": "102021400",
+          "description": "",
+          "page": 5
+        },
+        "102021500": {
+          "name": "Impairment-blood donation (Impairment-blood donation",
+          "code": "102021500",
+          "description": "",
+          "page": 5
+        },
+        "102021600": {
+          "name": "Impairment-disease (Impairment-disease",
+          "code": "102021600",
+          "description": "",
+          "page": 5
+        },
+        "102021700": {
+          "name": "Impairment-pain (Impairment-pain",
+          "code": "102021700",
+          "description": "",
+          "page": 5
+        },
+        "102021800": {
+          "name": "Impairment-tobacco smoking (Impairment-smoking",
+          "code": "102021800",
+          "description": "",
+          "page": 5
+        },
+        "102021900": {
+          "name": "Impairment-predisposing condition (Impairment-predisposition",
+          "code": "102021900",
+          "description": "",
+          "page": 5
+        },
+        "102022000": {
+          "name": "Impairment-psychological condition (Impairment-psychological",
+          "code": "102022000",
+          "description": "",
+          "page": 5
+        },
+        "102022100": {
+          "name": "Impairment-other health/fitness issues (Impairment-other fitness",
+          "code": "102022100",
+          "description": "",
+          "page": 5
+        },
+        "102022200": {
+          "name": "Impairment-other lifestyle (Impairment-other living",
+          "code": "102022200",
+          "description": "",
+          "page": 5
+        },
+        "102030000": {
+          "name": "Human fatigue/alertness (Human fatigue/alertness",
+          "code": "102030000",
+          "description": "",
+          "page": 5
+        },
+        "102030100": {
+          "name": "Fatigue-falling asleep (Fatigue-falling asleep",
+          "code": "102030100",
+          "description": "",
+          "page": 5
+        },
+        "102030200": {
+          "name": "Fatigue-acute (Fatigue-acute",
+          "code": "102030200",
+          "description": "",
+          "page": 5
+        },
+        "102030300": {
+          "name": "Fatigue-chronic (Fatigue-chronic",
+          "code": "102030300",
+          "description": "",
+          "page": 5
+        },
+        "102030400": {
+          "name": "Fatigue-circadian disrythmia (jet lag) (Circadian disrythmia",
+          "code": "102030400",
+          "description": "",
+          "page": 5
+        },
+        "102030500": {
+          "name": "Fatigue-rest/duty time (Fatigue-rest/duty time",
+          "code": "102030500",
+          "description": "",
+          "page": 5
+        },
+        "102030600": {
+          "name": "Fatigue-sleep deficit (Fatigue-sleep deficit",
+          "code": "102030600",
+          "description": "",
+          "page": 5
+        },
+        "102030700": {
+          "name": "Fatigue-sleep disorder (Fatigue-sleep disorder",
+          "code": "102030700",
+          "description": "",
+          "page": 5
+        },
+        "102030800": {
+          "name": "Fatigue-sleep disruption (Fatigue-sleep disruption",
+          "code": "102030800",
+          "description": "",
+          "page": 5
+        },
+        "102030900": {
+          "name": "Fatigue-other (Fatigue-other",
+          "code": "102030900",
+          "description": "",
+          "page": 5
+        },
+        "102040000": {
+          "name": "Human vestibular or visual illusions (Human illusions",
+          "code": "102040000",
+          "description": "",
+          "page": 6
+        },
+        "102040100": {
+          "name": "Human vestibular illusions generally (Vestibular illusions",
+          "code": "102040100",
+          "description": "",
+          "page": 6
+        },
+        "102040101": {
+          "name": "Coriolis vestibular illusions (Coriolis illusion",
+          "code": "102040101",
+          "description": "",
+          "page": 6
+        },
+        "102040102": {
+          "name": "Elevator vestibular illusions (Elevator illusion",
+          "code": "102040102",
+          "description": "",
+          "page": 6
+        },
+        "102040103": {
+          "name": "\"Giant-hand\" vestibular illusion (\"Giant-hand\" illusion",
+          "code": "102040103",
+          "description": "",
+          "page": 6
+        },
+        "102040104": {
+          "name": "Somatogravic/acceleration vestibular illusion (Somatogravic illusion",
+          "code": "102040104",
+          "description": "",
+          "page": 6
+        },
+        "102040105": {
+          "name": "Somatogyral vestibular illusion (Somatogyral illusion",
+          "code": "102040105",
+          "description": "",
+          "page": 6
+        },
+        "102040106": {
+          "name": "The leans vestibular illusion (The \"leans\" illusion",
+          "code": "102040106",
+          "description": "",
+          "page": 6
+        },
+        "102040200": {
+          "name": "Human visual illusions (Human visual illusions",
+          "code": "102040200",
+          "description": "",
+          "page": 6
+        },
+        "102040201": {
+          "name": "Black hole visual illusions (Black hole",
+          "code": "102040201",
+          "description": "",
+          "page": 6
+        },
+        "102040202": {
+          "name": "Flicker vertigo visual illusions (Flicker vertigo",
+          "code": "102040202",
+          "description": "",
+          "page": 6
+        },
+        "102040203": {
+          "name": "Landing visual illusions (Landing visual illusions",
+          "code": "102040203",
+          "description": "",
+          "page": 6
+        },
+        "102040204": {
+          "name": "Geometric perspective visual illusions (Perspective illusion",
+          "code": "102040204",
+          "description": "",
+          "page": 6
+        },
+        "102040205": {
+          "name": "Auto kinesis visual illusions (Auto kinesis illusion",
+          "code": "102040205",
+          "description": "",
+          "page": 6
+        },
+        "102040206": {
+          "name": "Visual illusions-other (Visual illusions-other",
+          "code": "102040206",
+          "description": "",
+          "page": 6
+        },
+        "102040300": {
+          "name": "Illusions other than those listed above (Illusions-other",
+          "code": "102040300",
+          "description": "",
+          "page": 6
+        },
+        "102050000": {
+          "name": "Physiological limitations-other (Physiological limit-other",
+          "code": "102050000",
+          "description": "",
+          "page": 7
+        }
+      },
+      "page": 3
+    },
+    "104000000": {
+      "name": "Personal workload management (Personal work management",
+      "code": "104000000",
+      "description": "",
+      "subcategories": {
+        "104020000": {
+          "name": "Personal timing of actions (Personal timing of actions",
+          "code": "104020000",
+          "description": "",
+          "page": 7
+        },
+        "104020100": {
+          "name": "Adapting to unforeseen task additions (Unforeseen task additions",
+          "code": "104020100",
+          "description": "",
+          "page": 7
+        },
+        "104040000": {
+          "name": "Task allocation (Task allocation",
+          "code": "104040000",
+          "description": "",
+          "page": 7
+        },
+        "104010000": {
+          "name": "Personal prioritization/task scheduling (Task scheduling",
+          "code": "104010000",
+          "description": "",
+          "page": 7
+        },
+        "104030000": {
+          "name": "High workload task shedding (Workload task shedding",
+          "code": "104030000",
+          "description": "",
+          "page": 7
+        },
+        "104050000": {
+          "name": "Other workload management (Other workload management",
+          "code": "104050000",
+          "description": "",
+          "page": 7
+        }
+      },
+      "page": 7
+    },
+    "101000000": {
+      "name": "Personal physical or sensory limitations (Physical/sensory limits",
+      "code": "101000000",
+      "description": "",
+      "subcategories": {
+        "101020000": {
+          "name": "Human sensory limitations (Human sensory limitations",
+          "code": "101020000",
+          "description": "",
+          "page": 7
+        },
+        "101020400": {
+          "name": "G tolerance (G tolerance",
+          "code": "101020400",
+          "description": "",
+          "page": 7
+        },
+        "101020200": {
+          "name": "Hearing (Hearing",
+          "code": "101020200",
+          "description": "",
+          "page": 7
+        },
+        "101020600": {
+          "name": "Mandelbaum effect on humans (Mandelbaum effect",
+          "code": "101020600",
+          "description": "",
+          "page": 7
+        },
+        "101020500": {
+          "name": "Proprioception (Proprioception",
+          "code": "101020500",
+          "description": "",
+          "page": 7
+        },
+        "101020700": {
+          "name": "Sensory threshold (Sensory threshold",
+          "code": "101020700",
+          "description": "",
+          "page": 7
+        },
+        "101020300": {
+          "name": "Vestibular function (Vestibular function",
+          "code": "101020300",
+          "description": "",
+          "page": 7
+        },
+        "101020100": {
+          "name": "Vision (Vision",
+          "code": "101020100",
+          "description": "",
+          "page": 7
+        },
+        "101020102": {
+          "name": "Colour vision (Colour vision",
+          "code": "101020102",
+          "description": "",
+          "page": 7
+        },
+        "101020103": {
+          "name": "Empty field myopia (Empty field myopia",
+          "code": "101020103",
+          "description": "",
+          "page": 7
+        },
+        "101020101": {
+          "name": "Uncorrected vision failure to wear glasses or contact lenses (Uncorrected vision",
+          "code": "101020101",
+          "description": "",
+          "page": 7
+        },
+        "101010000": {
+          "name": "Personal physical characteristics (Physical characteristics",
+          "code": "101010000",
+          "description": "",
+          "page": 7
+        },
+        "101010100": {
+          "name": "Personal age and physical limitations (Age/physical limitations",
+          "code": "101010100",
+          "description": "",
+          "page": 8
+        },
+        "101010200": {
+          "name": "Personal anthropometrics (Personal anthropometrics",
+          "code": "101010200",
+          "description": "",
+          "page": 8
+        },
+        "101010204": {
+          "name": "Personal mass (Personal mass",
+          "code": "101010204",
+          "description": "",
+          "page": 8
+        },
+        "101010202": {
+          "name": "Personal reach (Personal reach",
+          "code": "101010202",
+          "description": "",
+          "page": 8
+        },
+        "101010201": {
+          "name": "Personal size (Personal size",
+          "code": "101010201",
+          "description": "",
+          "page": 8
+        },
+        "101010203": {
+          "name": "Personal strength (Personal strength",
+          "code": "101010203",
+          "description": "",
+          "page": 8
+        },
+        "101030000": {
+          "name": "Other human physical limitations or characteristics (Other physical limits",
+          "code": "101030000",
+          "description": "",
+          "page": 8
+        }
+      },
+      "page": 7
+    },
+    "103000000": {
+      "name": "Psychological limitations (Psychological limitations",
+      "code": "103000000",
+      "description": "",
+      "subcategories": {
+        "103010000": {
+          "name": "Action or lack of action (Action or lack of action",
+          "code": "103010000",
+          "description": "",
+          "page": 8
+        },
+        "103010100": {
+          "name": "Psychological action-slip (correct intention; faulty action) (Action-slip",
+          "code": "103010100",
+          "description": "",
+          "page": 8
+        },
+        "103010200": {
+          "name": "Psychological action-lapse/omission/memory failure (Action-lapse/omission",
+          "code": "103010200",
+          "description": "",
+          "page": 8
+        },
+        "103010300": {
+          "name": "Psychological action-mistake (faulty plan/intention) (Action-mistake",
+          "code": "103010300",
+          "description": "",
+          "page": 8
+        },
+        "103010400": {
+          "name": "Psychological action-procedure violation (Procedure violation",
+          "code": "103010400",
+          "description": "",
+          "page": 8
+        },
+        "103010700": {
+          "name": "Psychological action or error-other (Psychological error-other",
+          "code": "103010700",
+          "description": "",
+          "page": 8
+        },
+        "103010500": {
+          "name": "Psychological action or error-timing (Timing",
+          "code": "103010500",
+          "description": "",
+          "page": 8
+        },
+        "103010600": {
+          "name": "Psychological action or error-third party (Third party",
+          "code": "103010600",
+          "description": "",
+          "page": 8
+        },
+        "103060000": {
+          "name": "Human judgement factors (Human judgement factors",
+          "code": "103060000",
+          "description": "",
+          "page": 8
+        },
+        "103060100": {
+          "name": "Human judgement factors-spatial (Spatial",
+          "code": "103060100",
+          "description": "",
+          "page": 8
+        },
+        "103060200": {
+          "name": "Human judgement factors-separation (Separation",
+          "code": "103060200",
+          "description": "",
+          "page": 8
+        },
+        "103060300": {
+          "name": "Human judgement factors-timing/speed (Timing/speed",
+          "code": "103060300",
+          "description": "",
+          "page": 8
+        },
+        "103060400": {
+          "name": "Other human judgement factors (Other human judgement",
+          "code": "103060400",
+          "description": "",
+          "page": 8
+        },
+        "103030000": {
+          "name": "Psychological action-information processing/decision making (Information processing",
+          "code": "103030000",
+          "description": "",
+          "page": 8
+        },
+        "103030100": {
+          "name": "Psychological action-decision making (Action-decision making",
+          "code": "103030100",
+          "description": "",
+          "page": 9
+        },
+        "103030600": {
+          "name": "Psychological-assumption incorrect (Assumption incorrect",
+          "code": "103030600",
+          "description": "",
+          "page": 9
+        },
+        "103030300": {
+          "name": "Psychological-comprehension (Comprehension",
+          "code": "103030300",
+          "description": "",
+          "page": 9
+        },
+        "103030800": {
+          "name": "Psychological-confirmation bias (Confirmation bias",
+          "code": "103030800",
+          "description": "",
+          "page": 9
+        },
+        "103030700": {
+          "name": "Psychological-false hypothesis (False hypothesis",
+          "code": "103030700",
+          "description": "",
+          "page": 9
+        },
+        "103031100": {
+          "name": "Psychological-information processing other (Information processing-other",
+          "code": "103031100",
+          "description": "",
+          "page": 9
+        },
+        "103030200": {
+          "name": "Psychological mental capacity (Mental capacity",
+          "code": "103030200",
+          "description": "",
+          "page": 9
+        },
+        "103030900": {
+          "name": "Psychological-mind set/expectancy (Mind set/expectancy",
+          "code": "103030900",
+          "description": "",
+          "page": 9
+        },
+        "103030400": {
+          "name": "Psychological-mis-recognition (Mis-recognition",
+          "code": "103030400",
+          "description": "",
+          "page": 9
+        },
+        "103030500": {
+          "name": "Psychological-misunderstanding (Misunderstanding",
+          "code": "103030500",
+          "description": "",
+          "page": 9
+        },
+        "103031000": {
+          "name": "Psychological-habituation (Psychological-habituation",
+          "code": "103031000",
+          "description": "",
+          "page": 9
+        },
+        "103070000": {
+          "name": "Human knowledge acquisition factors (Knowledge acquisition",
+          "code": "103070000",
+          "description": "",
+          "page": 9
+        },
+        "103100000": {
+          "name": "Mental/emotional state factors (Mental state factors",
+          "code": "103100000",
+          "description": "",
+          "page": 9
+        },
+        "103100100": {
+          "name": "Arousal level/alertness problems (Alertness problems",
+          "code": "103100100",
+          "description": "",
+          "page": 9
+        },
+        "103100300": {
+          "name": "Personal apprehension problems (Apprehension problems",
+          "code": "103100300",
+          "description": "",
+          "page": 9
+        },
+        "103100400": {
+          "name": "Personal anxiety problems (Personal anxiety problems",
+          "code": "103100400",
+          "description": "",
+          "page": 9
+        },
+        "103100200": {
+          "name": "Personal stress factors (Personal stress factors",
+          "code": "103100200",
+          "description": "",
+          "page": 9
+        },
+        "103100201": {
+          "name": "Post-incident stress factors (Post-incident stress",
+          "code": "103100201",
+          "description": "",
+          "page": 9
+        },
+        "103100600": {
+          "name": "Personal boredom (emotional state) problems (Personal boredom problems",
+          "code": "103100600",
+          "description": "",
+          "page": 9
+        },
+        "103100500": {
+          "name": "Personal panic factors (Personal panic factors",
+          "code": "103100500",
+          "description": "",
+          "page": 9
+        },
+        "103100700": {
+          "name": "Personal situation denial factors (Personal situation denial",
+          "code": "103100700",
+          "description": "",
+          "page": 10
+        },
+        "103100800": {
+          "name": "Other personal mental/emotional state factors (Other emotional factors",
+          "code": "103100800",
+          "description": "",
+          "page": 10
+        },
+        "103100801": {
+          "name": "Suicide: circumstances indicate that death was sought intentionally. (Suicide",
+          "code": "103100801",
+          "description": "",
+          "page": 10
+        },
+        "103040000": {
+          "name": "Psychological-attention, perception and monitoring (Perception & monitoring",
+          "code": "103040000",
+          "description": "",
+          "page": 10
+        },
+        "103040800": {
+          "name": "Psychological-attention habituation (Attention habituation",
+          "code": "103040800",
+          "description": "",
+          "page": 10
+        },
+        "103040900": {
+          "name": "Psychological-attention - other (Attention-other",
+          "code": "103040900",
+          "description": "",
+          "page": 10
+        },
+        "103040400": {
+          "name": "Psychological-boredom/monotony (Boredom/monotony",
+          "code": "103040400",
+          "description": "",
+          "page": 10
+        },
+        "103040700": {
+          "name": "Psychological-fascination/fixation/channelized attention (Channelized attention",
+          "code": "103040700",
+          "description": "",
+          "page": 10
+        },
+        "103040200": {
+          "name": "Psychological-attention (Psychological-attention",
+          "code": "103040200",
+          "description": "",
+          "page": 10
+        },
+        "103040600": {
+          "name": "Psychological-distraction (Psychological-distraction",
+          "code": "103040600",
+          "description": "",
+          "page": 10
+        },
+        "103040300": {
+          "name": "Psychological-monitoring (attention) (Psychological-monitoring",
+          "code": "103040300",
+          "description": "",
+          "page": 10
+        },
+        "103040301": {
+          "name": "Psychological-monitoring automation (Monitoring automation",
+          "code": "103040301",
+          "description": "",
+          "page": 10
+        },
+        "103040302": {
+          "name": "Psychological-monitoring displays/instruments (Monitoring displays",
+          "code": "103040302",
+          "description": "",
+          "page": 10
+        },
+        "103040304": {
+          "name": "Psychological-monitoring frequencies (Monitoring frequencies",
+          "code": "103040304",
+          "description": "",
+          "page": 10
+        },
+        "103040303": {
+          "name": "Psychological-monitoring outside world (Monitoring outside world",
+          "code": "103040303",
+          "description": "",
+          "page": 10
+        },
+        "103040305": {
+          "name": "Psychological-monitoring a person (Monitoring a person",
+          "code": "103040305",
+          "description": "",
+          "page": 10
+        },
+        "103040100": {
+          "name": "Psychological-perception (Psychological-perception",
+          "code": "103040100",
+          "description": "",
+          "page": 10
+        },
+        "103040500": {
+          "name": "Psychological-vigilance (Psychological-vigilance",
+          "code": "103040500",
+          "description": "",
+          "page": 10
+        },
+        "103090000": {
+          "name": "Personality and attitude factors (Personality/attitude",
+          "code": "103090000",
+          "description": "",
+          "page": 10
+        },
+        "103090400": {
+          "name": "Complacency factors (Complacency factors",
+          "code": "103090400",
+          "description": "",
+          "page": 11
+        },
+        "103090300": {
+          "name": "Lack of or excessive confidence problems (Confidence problems",
+          "code": "103090300",
+          "description": "",
+          "page": 11
+        },
+        "103090301": {
+          "name": "Confidence in aircraft factors (Confidence in aircraft",
+          "code": "103090301",
+          "description": "",
+          "page": 11
+        },
+        "103090307": {
+          "name": "Confidence in ATC factors (Confidence in ATC factors",
+          "code": "103090307",
+          "description": "",
+          "page": 11
+        },
+        "103090306": {
+          "name": "Confidence in automation factors (Confidence in automation",
+          "code": "103090306",
+          "description": "",
+          "page": 11
+        },
+        "103090302": {
+          "name": "Confidence in equipment factors (Confidence in equipment",
+          "code": "103090302",
+          "description": "",
+          "page": 11
+        },
+        "103090305": {
+          "name": "Confidence in information factors (Confidence in information",
+          "code": "103090305",
+          "description": "",
+          "page": 11
+        },
+        "103090304": {
+          "name": "Confidence in others factors (Confidence in others",
+          "code": "103090304",
+          "description": "",
+          "page": 11
+        },
+        "103090303": {
+          "name": "Self confidence problems (Self confidence problems",
+          "code": "103090303",
+          "description": "",
+          "page": 11
+        },
+        "103090500": {
+          "name": "\"Get-home-itis\"/\"press-on-itis\" factors (\"Get-home-itis\" factors",
+          "code": "103090500",
+          "description": "",
+          "page": 11
+        },
+        "103090600": {
+          "name": "Motivation problems (Motivation problems",
+          "code": "103090600",
+          "description": "",
+          "page": 11
+        },
+        "103090100": {
+          "name": "Personality factors (Personality factors",
+          "code": "103090100",
+          "description": "",
+          "page": 11
+        },
+        "103090101": {
+          "name": "Aggressive personality factors (Aggressive personality",
+          "code": "103090101",
+          "description": "",
+          "page": 11
+        },
+        "103090102": {
+          "name": "Assertive personality factors (Assertive personality",
+          "code": "103090102",
+          "description": "",
+          "page": 11
+        },
+        "103090103": {
+          "name": "Non-assertive personality factors (Non-assertive personality",
+          "code": "103090103",
+          "description": "",
+          "page": 11
+        },
+        "103090200": {
+          "name": "Risk-taking personality factors (Risk-taking factors",
+          "code": "103090200",
+          "description": "",
+          "page": 11
+        },
+        "103090700": {
+          "name": "Other attitude factors (Other attitude factors",
+          "code": "103090700",
+          "description": "",
+          "page": 11
+        },
+        "103050000": {
+          "name": "Psychological-skill/technique/ability (Psychological-ability",
+          "code": "103050000",
+          "description": "",
+          "page": 11
+        },
+        "103050600": {
+          "name": "Human interaction with automation (Interaction-automation",
+          "code": "103050600",
+          "description": "",
+          "page": 11
+        },
+        "103050800": {
+          "name": "Non-standard technique factors (Non-standard technique",
+          "code": "103050800",
+          "description": "",
+          "page": 11
+        },
+        "103050200": {
+          "name": "Psychological-airmanship (Psychological-airmanship",
+          "code": "103050200",
+          "description": "",
+          "page": 11
+        },
+        "103050201": {
+          "name": "Psychological-handling of aircraft (Handling of aircraft",
+          "code": "103050201",
+          "description": "",
+          "page": 11
+        },
+        "103050202": {
+          "name": "Psychological-CRM/airmanship (Psychological-airmanship",
+          "code": "103050202",
+          "description": "",
+          "page": 11
+        },
+        "103050300": {
+          "name": "Psychological-competence/ability (Psychological-competence",
+          "code": "103050300",
+          "description": "",
+          "page": 12
+        },
+        "103050400": {
+          "name": "Psychological-past record (Psychological-past record",
+          "code": "103050400",
+          "description": "",
+          "page": 12
+        },
+        "103050500": {
+          "name": "Psychological-skill (Psychological-skill",
+          "code": "103050500",
+          "description": "",
+          "page": 12
+        },
+        "103050503": {
+          "name": "Skill maintenance factors practice lack (Lack of practice",
+          "code": "103050503",
+          "description": "",
+          "page": 12
+        },
+        "103050501": {
+          "name": "Skill maintenance factor-automation (Maintenance-automation",
+          "code": "103050501",
+          "description": "",
+          "page": 12
+        },
+        "103050502": {
+          "name": "Skill maintenance factor with age (Skill maintenance-age",
+          "code": "103050502",
+          "description": "",
+          "page": 12
+        },
+        "103050504": {
+          "name": "Skill maintenance-negative transfer (Negative transfer",
+          "code": "103050504",
+          "description": "",
+          "page": 12
+        },
+        "103050100": {
+          "name": "Psychological-technique (Psychological-technique",
+          "code": "103050100",
+          "description": "",
+          "page": 12
+        },
+        "103050700": {
+          "name": "Human reaction time-skill/ability level (Reaction time-ability",
+          "code": "103050700",
+          "description": "",
+          "page": 12
+        },
+        "103050900": {
+          "name": "Other technique/skill/ability factors (Other factors",
+          "code": "103050900",
+          "description": "",
+          "page": 12
+        },
+        "103020000": {
+          "name": "Psychological action-planning (Psychological planning",
+          "code": "103020000",
+          "description": "",
+          "page": 12
+        },
+        "103020200": {
+          "name": "Psychological action-preparedness (Action-preparedness",
+          "code": "103020200",
+          "description": "",
+          "page": 12
+        },
+        "103020300": {
+          "name": "Psychological action-ATC planning (ATC planning",
+          "code": "103020300",
+          "description": "",
+          "page": 12
+        },
+        "103020100": {
+          "name": "Psychological action-flight planning (Flight planning",
+          "code": "103020100",
+          "description": "",
+          "page": 12
+        },
+        "103020102": {
+          "name": "Psychological action-in-flight planning (In-flight planning",
+          "code": "103020102",
+          "description": "",
+          "page": 12
+        },
+        "103020101": {
+          "name": "Psychological action-pre-flight planning (Pre-flight planning",
+          "code": "103020101",
+          "description": "",
+          "page": 12
+        },
+        "103020400": {
+          "name": "Psychological action-maintenance task planning (Maintenance planning",
+          "code": "103020400",
+          "description": "",
+          "page": 12
+        },
+        "103020401": {
+          "name": "Psychological action-spares provisioning (Spares provisioning",
+          "code": "103020401",
+          "description": "",
+          "page": 12
+        },
+        "103080000": {
+          "name": "Human knowledge acquisition factors situational awareness (Situational awareness",
+          "code": "103080000",
+          "description": "",
+          "page": 12
+        },
+        "103080200": {
+          "name": "Geographic disorientation factors, i.e. being lost (Geographic disorientation",
+          "code": "103080200",
+          "description": "",
+          "page": 12
+        },
+        "103080500": {
+          "name": "\"Losing the picture\" factors (\"Losing the picture\"",
+          "code": "103080500",
+          "description": "",
+          "page": 12
+        },
+        "103080600": {
+          "name": "Situational awareness and automation factors (Situational awareness",
+          "code": "103080600",
+          "description": "",
+          "page": 13
+        },
+        "103080100": {
+          "name": "Spatial disorientation factors (Spatial disorientation",
+          "code": "103080100",
+          "description": "",
+          "page": 13
+        },
+        "103080300": {
+          "name": "Temporal disorientation/time horizon factors (Temporal disorientation",
+          "code": "103080300",
+          "description": "",
+          "page": 13
+        },
+        "103080400": {
+          "name": "Visual disorientation factors (Visual disorientation",
+          "code": "103080400",
+          "description": "",
+          "page": 13
+        },
+        "103080700": {
+          "name": "Other orientation factors (Other orientation factors",
+          "code": "103080700",
+          "description": "",
+          "page": 13
+        }
+      },
+      "page": 8
+    },
+    "200000000": {
+      "name": "Liveware (human) - environment interface (Liveware-environment",
+      "code": "200000000",
+      "description": "",
+      "subcategories": {},
+      "page": 13
+    },
+    "201000000": {
+      "name": "Physical environment (Physical environment",
+      "code": "201000000",
+      "description": "",
+      "subcategories": {
+        "201010000": {
+          "name": "Aerodrome/landing/take-off site (Landing/take-off site",
+          "code": "201010000",
+          "description": "",
+          "page": 13
+        },
+        "201010100": {
+          "name": "Taxiway/runway characteristics, conditions or lighting/markings (Taxiway/runway",
+          "code": "201010100",
+          "description": "",
+          "page": 13
+        },
+        "201010200": {
+          "name": "Approach aids (Approach aids",
+          "code": "201010200",
+          "description": "",
+          "page": 13
+        },
+        "201010300": {
+          "name": "Landing/take-off site infrastructure (Infrastructure",
+          "code": "201010300",
+          "description": "",
+          "page": 13
+        },
+        "201010400": {
+          "name": "Obstructions to vision on the landing site (Obstructions to vision",
+          "code": "201010400",
+          "description": "",
+          "page": 13
+        },
+        "201010500": {
+          "name": "Landing take-off site facilities (Landing take-off",
+          "code": "201010500",
+          "description": "",
+          "page": 13
+        },
+        "201020000": {
+          "name": "Air traffic services (Air traffic services",
+          "code": "201020000",
+          "description": "",
+          "page": 13
+        },
+        "201020100": {
+          "name": "Air Traffic Services incorrect/ inappropriate/ inadequate (Inappropriate",
+          "code": "201020100",
+          "description": "",
+          "page": 13
+        },
+        "201020200": {
+          "name": "Lack of Air Traffic Control (Air Traffic Control lack",
+          "code": "201020200",
+          "description": "",
+          "page": 13
+        },
+        "201030000": {
+          "name": "Provision of Air Traffic Services information (ATS information provision",
+          "code": "201030000",
+          "description": "",
+          "page": 13
+        },
+        "201030100": {
+          "name": "Air Traffic Services weather information (Weather information",
+          "code": "201030100",
+          "description": "",
+          "page": 13
+        },
+        "201030200": {
+          "name": "Air Traffic Services information on aerodrome conditions (Aerodrome conditions",
+          "code": "201030200",
+          "description": "",
+          "page": 13
+        },
+        "201030300": {
+          "name": "Other Air Traffic Services information (Other information",
+          "code": "201030300",
+          "description": "",
+          "page": 13
+        },
+        "201040000": {
+          "name": "Weather/visibility conditions (Weather/visibility",
+          "code": "201040000",
+          "description": "",
+          "page": 13
+        },
+        "201050000": {
+          "name": "Physical workspace environment (Workspace environment",
+          "code": "201050000",
+          "description": "",
+          "page": 13
+        },
+        "201050100": {
+          "name": "Anthropometric space (Anthropometric space",
+          "code": "201050100",
+          "description": "",
+          "page": 14
+        },
+        "201050200": {
+          "name": "Access (for maintenance) (Access (for maintenance",
+          "code": "201050200",
+          "description": "",
+          "page": 14
+        },
+        "201050300": {
+          "name": "Visibility from workspace/workplace (Visibility from workplace",
+          "code": "201050300",
+          "description": "",
+          "page": 14
+        },
+        "201050400": {
+          "name": "Air quality in workplace (Air quality in workplace",
+          "code": "201050400",
+          "description": "",
+          "page": 14
+        },
+        "201050500": {
+          "name": "Ambient air pressure (Ambient air pressure",
+          "code": "201050500",
+          "description": "",
+          "page": 14
+        },
+        "201050600": {
+          "name": "Cold working environment (Cold working environment",
+          "code": "201050600",
+          "description": "",
+          "page": 14
+        },
+        "201050700": {
+          "name": "Hot working environment (Hot working environment",
+          "code": "201050700",
+          "description": "",
+          "page": 14
+        },
+        "201050800": {
+          "name": "Ill-lit working environment (Ill-lit environment",
+          "code": "201050800",
+          "description": "",
+          "page": 14
+        },
+        "201050900": {
+          "name": "Vision impairment due to glare (Vision impairment-glare",
+          "code": "201050900",
+          "description": "",
+          "page": 14
+        },
+        "201051000": {
+          "name": "Working environment discomfort due to humidity (Environment humidity",
+          "code": "201051000",
+          "description": "",
+          "page": 14
+        },
+        "201051100": {
+          "name": "Noise in the workplace (Noise in the workplace",
+          "code": "201051100",
+          "description": "",
+          "page": 14
+        },
+        "201051200": {
+          "name": "Ozone contamination of workplace (Ozone contamination",
+          "code": "201051200",
+          "description": "",
+          "page": 14
+        },
+        "201051300": {
+          "name": "Smoke/fumes contamination of workplace (Smoke/fumes contamination",
+          "code": "201051300",
+          "description": "",
+          "page": 14
+        },
+        "201051400": {
+          "name": "Radiation in the work environment (Radiation environment",
+          "code": "201051400",
+          "description": "",
+          "page": 14
+        },
+        "201051500": {
+          "name": "Excessive vibration in the work environment (Excessive vibration",
+          "code": "201051500",
+          "description": "",
+          "page": 14
+        },
+        "201051600": {
+          "name": "Other internal workspace environment issues (Other workspace issues",
+          "code": "201051600",
+          "description": "",
+          "page": 14
+        },
+        "201060000": {
+          "name": "Other human-environment interface (Other interface",
+          "code": "201060000",
+          "description": "",
+          "page": 14
+        }
+      },
+      "page": 13
+    },
+    "202000000": {
+      "name": "Psychosocial factors (Psychosocial factors",
+      "code": "202000000",
+      "description": "",
+      "subcategories": {
+        "202010000": {
+          "name": "Job satisfaction (Job satisfaction",
+          "code": "202010000",
+          "description": "",
+          "page": 14
+        },
+        "202020000": {
+          "name": "Morale/motivation (Morale/motivation",
+          "code": "202020000",
+          "description": "",
+          "page": 14
+        },
+        "202030000": {
+          "name": "Cultural issues (Cultural issues",
+          "code": "202030000",
+          "description": "",
+          "page": 14
+        },
+        "202040000": {
+          "name": "Domestic issues (Domestic issues",
+          "code": "202040000",
+          "description": "",
+          "page": 14
+        },
+        "202040100": {
+          "name": "Domestic event/crisis (Domestic event/crisis",
+          "code": "202040100",
+          "description": "",
+          "page": 15
+        },
+        "202040200": {
+          "name": "Family pressure (Family pressure",
+          "code": "202040200",
+          "description": "",
+          "page": 15
+        },
+        "202040300": {
+          "name": "Financial problems/issues (Financial problems/issues",
+          "code": "202040300",
+          "description": "",
+          "page": 15
+        },
+        "202040400": {
+          "name": "Interpersonal conflicts (Interpersonal conflicts",
+          "code": "202040400",
+          "description": "",
+          "page": 15
+        },
+        "202040500": {
+          "name": "Significant lifestyle change (Lifestyle change",
+          "code": "202040500",
+          "description": "",
+          "page": 15
+        },
+        "202040600": {
+          "name": "Mental pressure (domestic) (Mental pressure-domestic",
+          "code": "202040600",
+          "description": "",
+          "page": 15
+        },
+        "202060000": {
+          "name": "Non-sterile cockpit/workplace (Non-sterile cockpit/workplace",
+          "code": "202060000",
+          "description": "",
+          "page": 15
+        },
+        "202050000": {
+          "name": "Other psychosocial issues (Other psychosocial issues",
+          "code": "202050000",
+          "description": "",
+          "page": 15
+        }
+      },
+      "page": 14
+    },
+    "203000000": {
+      "name": "Company, management, manning or regulatory issues (Company/regulatory issues",
+      "code": "203000000",
+      "description": "",
+      "subcategories": {
+        "203010000": {
+          "name": "Pressure to achieve (Pressure to achieve",
+          "code": "203010000",
+          "description": "",
+          "page": 15
+        },
+        "203010100": {
+          "name": "Company/commercial pressures (Commercial pressures",
+          "code": "203010100",
+          "description": "",
+          "page": 15
+        },
+        "203010200": {
+          "name": "Specific company problems (Specific company problems",
+          "code": "203010200",
+          "description": "",
+          "page": 15
+        },
+        "203010300": {
+          "name": "Management/supervision problems (Supervision problems",
+          "code": "203010300",
+          "description": "",
+          "page": 15
+        },
+        "203010400": {
+          "name": "Managerial operating pressures (Managerial pressures",
+          "code": "203010400",
+          "description": "",
+          "page": 15
+        },
+        "203020000": {
+          "name": "Labour relations factors (Labour relations factors",
+          "code": "203020000",
+          "description": "",
+          "page": 15
+        },
+        "203020100": {
+          "name": "Employee-management relations (Employee-management",
+          "code": "203020100",
+          "description": "",
+          "page": 15
+        },
+        "203020200": {
+          "name": "Industrial action (Industrial action",
+          "code": "203020200",
+          "description": "",
+          "page": 15
+        },
+        "203020300": {
+          "name": "Union or professional group (Union/professional group",
+          "code": "203020300",
+          "description": "",
+          "page": 15
+        },
+        "203030000": {
+          "name": "Management's personnel policies (Management personnel policy",
+          "code": "203030000",
+          "description": "",
+          "page": 15
+        },
+        "203030100": {
+          "name": "Operational personnel policies (Operational",
+          "code": "203030100",
+          "description": "",
+          "page": 15
+        },
+        "203030200": {
+          "name": "Operational control personnel policies (Operational control",
+          "code": "203030200",
+          "description": "",
+          "page": 16
+        },
+        "203030300": {
+          "name": "Operational support personnel policies (Operational support",
+          "code": "203030300",
+          "description": "",
+          "page": 16
+        },
+        "203030400": {
+          "name": "Recruitment personnel policies (Recruitment",
+          "code": "203030400",
+          "description": "",
+          "page": 16
+        },
+        "203030500": {
+          "name": "Staffing personnel policies (Staffing",
+          "code": "203030500",
+          "description": "",
+          "page": 16
+        },
+        "203030600": {
+          "name": "Manning/resource allocation personnel policies (Resource allocation",
+          "code": "203030600",
+          "description": "",
+          "page": 16
+        },
+        "203030700": {
+          "name": "Crew pairing personnel policies (Crew pairing",
+          "code": "203030700",
+          "description": "",
+          "page": 16
+        },
+        "203030800": {
+          "name": "Scheduling personnel policies (Scheduling",
+          "code": "203030800",
+          "description": "",
+          "page": 16
+        },
+        "203030900": {
+          "name": "Maintenance scheduling personnel policy (Maintenance scheduling",
+          "code": "203030900",
+          "description": "",
+          "page": 16
+        },
+        "203031000": {
+          "name": "Seniority/promotion/career progression personnel policies (Career progression",
+          "code": "203031000",
+          "description": "",
+          "page": 16
+        },
+        "203031100": {
+          "name": "Terms and conditions/pay/incentives personnel policies (Terms and conditions",
+          "code": "203031100",
+          "description": "",
+          "page": 16
+        },
+        "203031200": {
+          "name": "Personnel requirement policies (Personnel requirement",
+          "code": "203031200",
+          "description": "",
+          "page": 16
+        },
+        "203031300": {
+          "name": "Personnel policies in instructions/directives/orders (Instructions",
+          "code": "203031300",
+          "description": "",
+          "page": 16
+        },
+        "203031400": {
+          "name": "Shiftwork/rosters/duty time personnel policies (Shiftwork, duty time",
+          "code": "203031400",
+          "description": "",
+          "page": 16
+        },
+        "203040000": {
+          "name": "Manning issues (Manning issues",
+          "code": "203040000",
+          "description": "",
+          "page": 16
+        },
+        "203040100": {
+          "name": "Temporary or unexpected staff shortages (Unexpected staff shortage",
+          "code": "203040100",
+          "description": "",
+          "page": 16
+        },
+        "203040200": {
+          "name": "Temporary or unexpected skills shortages (Unexpected skill shortage",
+          "code": "203040200",
+          "description": "",
+          "page": 16
+        },
+        "203050000": {
+          "name": "Regulatory authority policies and practices (Regulatory policies",
+          "code": "203050000",
+          "description": "",
+          "page": 16
+        }
+      },
+      "page": 15
+    },
+    "204000000": {
+      "name": "Operational task demands (Operational task demands",
+      "code": "204000000",
+      "description": "",
+      "subcategories": {
+        "204010000": {
+          "name": "Workload task demands (Workload task demands",
+          "code": "204010000",
+          "description": "",
+          "page": 16
+        },
+        "204010100": {
+          "name": "Work overload/task saturation (Overload/task saturation",
+          "code": "204010100",
+          "description": "",
+          "page": 17
+        },
+        "204010200": {
+          "name": "High workload due to staff/skills shortage (High-staff/skills short",
+          "code": "204010200",
+          "description": "",
+          "page": 17
+        },
+        "204010300": {
+          "name": "Underload - low operational task demand (Underload-low demand",
+          "code": "204010300",
+          "description": "",
+          "page": 17
+        },
+        "204010400": {
+          "name": "Workload level transition (Workload level transition",
+          "code": "204010400",
+          "description": "",
+          "page": 17
+        },
+        "204010500": {
+          "name": "Additional workload due to unexpected demands (Additional-unexpected",
+          "code": "204010500",
+          "description": "",
+          "page": 17
+        },
+        "204010600": {
+          "name": "Additional workload due to extraneous tasks (Additional-extraneous",
+          "code": "204010600",
+          "description": "",
+          "page": 17
+        },
+        "204010700": {
+          "name": "Additional workload due to administrative requirements (Additional administrative",
+          "code": "204010700",
+          "description": "",
+          "page": 17
+        },
+        "204010800": {
+          "name": "Additional workload due to unusual/unfamiliar situation (Additional-unusual",
+          "code": "204010800",
+          "description": "",
+          "page": 17
+        },
+        "204010900": {
+          "name": "Additional workload due to emergency situation (Additional-emergency",
+          "code": "204010900",
+          "description": "",
+          "page": 17
+        },
+        "204011000": {
+          "name": "Additional workload due to poor air traffic flow control (Additional-flow control",
+          "code": "204011000",
+          "description": "",
+          "page": 17
+        },
+        "204020000": {
+          "name": "Time pressure factors (Time pressure factors",
+          "code": "204020000",
+          "description": "",
+          "page": 17
+        },
+        "204020100": {
+          "name": "Time pressures while flying (While flying",
+          "code": "204020100",
+          "description": "",
+          "page": 17
+        },
+        "204020200": {
+          "name": "Time pressures while controlling air traffic (Controlling air traffic",
+          "code": "204020200",
+          "description": "",
+          "page": 17
+        },
+        "204020300": {
+          "name": "Time pressures maintenance/turn around (Maintenance/turn around",
+          "code": "204020300",
+          "description": "",
+          "page": 17
+        },
+        "204020400": {
+          "name": "Time pressures night curfew (Night curfew",
+          "code": "204020400",
+          "description": "",
+          "page": 17
+        },
+        "204020500": {
+          "name": "Time pressures - flight time limitations/out-of-hours (Flight time limitations",
+          "code": "204020500",
+          "description": "",
+          "page": 17
+        },
+        "204030000": {
+          "name": "Mental pressure during normal operations (Mental pressure normal operations",
+          "code": "204030000",
+          "description": "",
+          "page": 17
+        },
+        "204040000": {
+          "name": "Training, examination or check situation (Training/check situation",
+          "code": "204040000",
+          "description": "",
+          "page": 17
+        },
+        "204040100": {
+          "name": "Examination, check or training in progress (Training in progress",
+          "code": "204040100",
+          "description": "",
+          "page": 17
+        },
+        "204040101": {
+          "name": "Flight crew examination, check or training in progress (Flight crew",
+          "code": "204040101",
+          "description": "",
+          "page": 17
+        },
+        "204040102": {
+          "name": "Air Traffic Control Officer examination, check or training in progress (ATCO",
+          "code": "204040102",
+          "description": "",
+          "page": 17
+        },
+        "204040103": {
+          "name": "Engineer examination, check or training in progress (Engineer",
+          "code": "204040103",
+          "description": "",
+          "page": 18
+        },
+        "204040200": {
+          "name": "Other examination, check or training in progress (Other training going on",
+          "code": "204040200",
+          "description": "",
+          "page": 18
+        },
+        "204050000": {
+          "name": "Miscellaneous operational task demands (Operational task demands",
+          "code": "204050000",
+          "description": "",
+          "page": 18
+        },
+        "204050100": {
+          "name": "Task demands caused by other aircraft (Caused by other aircraft",
+          "code": "204050100",
+          "description": "",
+          "page": 18
+        },
+        "204050200": {
+          "name": "Task demands caused by passengers (Caused by passengers",
+          "code": "204050200",
+          "description": "",
+          "page": 18
+        },
+        "204050201": {
+          "name": "Task demands due to disruptive passengers (Disruptive passengers",
+          "code": "204050201",
+          "description": "",
+          "page": 18
+        },
+        "204050300": {
+          "name": "Task demands due to technical problem/failure (Technical problem/failure",
+          "code": "204050300",
+          "description": "",
+          "page": 18
+        },
+        "204050400": {
+          "name": "Task demands caused by ground operations (Ground operations",
+          "code": "204050400",
+          "description": "",
+          "page": 18
+        },
+        "204050500": {
+          "name": "Task demands caused by ground services (Ground services",
+          "code": "204050500",
+          "description": "",
+          "page": 18
+        },
+        "204050600": {
+          "name": "Task demands caused by technical support (Technical support",
+          "code": "204050600",
+          "description": "",
+          "page": 18
+        }
+      },
+      "page": 16
+    },
+    "300000000": {
+      "name": "Liveware (human) - hardware/software interface (Hard/software interface",
+      "code": "300000000",
+      "description": "",
+      "subcategories": {},
+      "page": 18
+    },
+    "301000000": {
+      "name": "Human and hardware interface (Human/hardware interface",
+      "code": "301000000",
+      "description": "",
+      "subcategories": {
+        "301010000": {
+          "name": "Workplace equipment/workplace design liveware - hardware interface (Workplace",
+          "code": "301010000",
+          "description": "",
+          "page": 18
+        },
+        "301010100": {
+          "name": "Design or ergonomics liveware - hardware interface (Design or ergonomics",
+          "code": "301010100",
+          "description": "",
+          "page": 18
+        },
+        "301010101": {
+          "name": "Workplace eye reference position overlooked (Eye reference overlooked",
+          "code": "301010101",
+          "description": "",
+          "page": 18
+        },
+        "301010102": {
+          "name": "Workplace seat design inadequate (Seat design inadequate",
+          "code": "301010102",
+          "description": "",
+          "page": 18
+        },
+        "301010103": {
+          "name": "Workspace layout not optimum (Layout not optimum",
+          "code": "301010103",
+          "description": "",
+          "page": 18
+        },
+        "301010104": {
+          "name": "Workplace instruments design unsuitable (Instrument design",
+          "code": "301010104",
+          "description": "",
+          "page": 18
+        },
+        "301010105": {
+          "name": "Workplace electronic displays design (Electronic display design",
+          "code": "301010105",
+          "description": "",
+          "page": 18
+        },
+        "301010106": {
+          "name": "Workplace control design unsuitable (Control design unsuitable",
+          "code": "301010106",
+          "description": "",
+          "page": 18
+        },
+        "301010107": {
+          "name": "Workplace controls and displays incompatible (Control/display incompatible",
+          "code": "301010107",
+          "description": "",
+          "page": 19
+        },
+        "301010108": {
+          "name": "Workplace controls and displays badly lit (Control/display badly lit",
+          "code": "301010108",
+          "description": "",
+          "page": 19
+        },
+        "301010109": {
+          "name": "Workplace controls and displays mislocated (Control/display location",
+          "code": "301010109",
+          "description": "",
+          "page": 19
+        },
+        "301010110": {
+          "name": "Workplace controls and displays (Controls and displays",
+          "code": "301010110",
+          "description": "",
+          "page": 19
+        },
+        "301010111": {
+          "name": "Workplace equipment control (Equipment control",
+          "code": "301010111",
+          "description": "",
+          "page": 19
+        },
+        "301010112": {
+          "name": "Workplace motor workload excessive (Motor workload excessive",
+          "code": "301010112",
+          "description": "",
+          "page": 19
+        },
+        "301010113": {
+          "name": "Workplace reach/vision restrictions (Reach/vision restrictions",
+          "code": "301010113",
+          "description": "",
+          "page": 19
+        },
+        "301010200": {
+          "name": "Workplace personal discomfort (Personal discomfort",
+          "code": "301010200",
+          "description": "",
+          "page": 19
+        },
+        "301010300": {
+          "name": "Workplace alerts/warnings intrusive (Alerts/warnings intrusive",
+          "code": "301010300",
+          "description": "",
+          "page": 19
+        },
+        "301010400": {
+          "name": "Workplace non-standard controls (Non-standard controls",
+          "code": "301010400",
+          "description": "",
+          "page": 19
+        },
+        "301010500": {
+          "name": "Workplace unreliable equipment (Unreliable equipment",
+          "code": "301010500",
+          "description": "",
+          "page": 19
+        },
+        "301010600": {
+          "name": "Workspace electronic map display shift (Electronic map display",
+          "code": "301010600",
+          "description": "",
+          "page": 19
+        },
+        "301020000": {
+          "name": "Non-flight deck/cockpit aircraft equipment (Non-flight deck equipment",
+          "code": "301020000",
+          "description": "",
+          "page": 19
+        },
+        "301020100": {
+          "name": "Ergonomics of other aircraft equipment (Ergonomics",
+          "code": "301020100",
+          "description": "",
+          "page": 19
+        },
+        "301020101": {
+          "name": "Cabin crew seat design (Cabin crew seat design",
+          "code": "301020101",
+          "description": "",
+          "page": 19
+        },
+        "301020200": {
+          "name": "Comfort of other aircraft equipment (Comfort",
+          "code": "301020200",
+          "description": "",
+          "page": 19
+        },
+        "301020300": {
+          "name": "Intrusive alerts/warnings of other aircraft equipment (Intrusive alerts",
+          "code": "301020300",
+          "description": "",
+          "page": 19
+        },
+        "301020400": {
+          "name": "Standardization of other aircraft equipment (Standardization",
+          "code": "301020400",
+          "description": "",
+          "page": 19
+        },
+        "301020500": {
+          "name": "Reliability of other aircraft equipment (Reliability-other",
+          "code": "301020500",
+          "description": "",
+          "page": 20
+        },
+        "301030000": {
+          "name": "Aircraft maintenance equipment (Aircraft maintenance equipment",
+          "code": "301030000",
+          "description": "",
+          "page": 20
+        },
+        "301030100": {
+          "name": "Design/ergonomics of maintenance tools/equipment (Design tools/equipment",
+          "code": "301030100",
+          "description": "",
+          "page": 20
+        },
+        "301030200": {
+          "name": "Reliability of aircraft maintenance equipment (Reliability",
+          "code": "301030200",
+          "description": "",
+          "page": 20
+        },
+        "301040000": {
+          "name": "ATC equipment (ATC equipment",
+          "code": "301040000",
+          "description": "",
+          "page": 20
+        },
+        "301040100": {
+          "name": "Ergonomics/design of ATC equipment (Ergonomics-ATC equipment",
+          "code": "301040100",
+          "description": "",
+          "page": 20
+        },
+        "301040200": {
+          "name": "Radar display standards (Radar display standards",
+          "code": "301040200",
+          "description": "",
+          "page": 20
+        },
+        "301040300": {
+          "name": "Flight progress strips display (Progress strips display",
+          "code": "301040300",
+          "description": "",
+          "page": 20
+        },
+        "301040400": {
+          "name": "Air Traffic Control communications equipment (ATC communications equipment",
+          "code": "301040400",
+          "description": "",
+          "page": 20
+        },
+        "301040500": {
+          "name": "Reliability of ATC equipment (Reliability-ATC equipment",
+          "code": "301040500",
+          "description": "",
+          "page": 20
+        },
+        "301040600": {
+          "name": "Other air traffic control equipment (Other ATC equipment",
+          "code": "301040600",
+          "description": "",
+          "page": 20
+        },
+        "301050000": {
+          "name": "Suitability of design/ergonomics for training purposes (Ergonomics for training",
+          "code": "301050000",
+          "description": "",
+          "page": 20
+        },
+        "301060000": {
+          "name": "Suitability of design for maintenance purposes (Suitability-maintenance",
+          "code": "301060000",
+          "description": "",
+          "page": 20
+        }
+      },
+      "page": 18
+    },
+    "302000000": {
+      "name": "Inadequate information/data sources (Inadequate info sources",
+      "code": "302000000",
+      "description": "",
+      "subcategories": {
+        "302010000": {
+          "name": "Data sources (Data sources",
+          "code": "302010000",
+          "description": "",
+          "page": 20
+        },
+        "302010100": {
+          "name": "Radar information (Radar information",
+          "code": "302010100",
+          "description": "",
+          "page": 20
+        },
+        "302010101": {
+          "name": "Primary radar information (Primary radar information",
+          "code": "302010101",
+          "description": "",
+          "page": 20
+        },
+        "302010102": {
+          "name": "Secondary radar information (Primary radar information",
+          "code": "302010102",
+          "description": "",
+          "page": 20
+        },
+        "302010200": {
+          "name": "Transponder information (Transponder information",
+          "code": "302010200",
+          "description": "",
+          "page": 20
+        },
+        "302010201": {
+          "name": "Mode C information (Mode C information",
+          "code": "302010201",
+          "description": "",
+          "page": 21
+        },
+        "302010202": {
+          "name": "Squawk/identification (Squawk/identification",
+          "code": "302010202",
+          "description": "",
+          "page": 21
+        },
+        "302010300": {
+          "name": "Human data source (Human data source",
+          "code": "302010300",
+          "description": "",
+          "page": 21
+        },
+        "302010301": {
+          "name": "Civil air traffic control data source (Civil air traffic control",
+          "code": "302010301",
+          "description": "",
+          "page": 21
+        },
+        "302010302": {
+          "name": "Information from military sources (Information-military",
+          "code": "302010302",
+          "description": "",
+          "page": 21
+        },
+        "302010303": {
+          "name": "Information from other pilots (Information-other pilots",
+          "code": "302010303",
+          "description": "",
+          "page": 21
+        },
+        "302010400": {
+          "name": "Other information/data sources (Other information",
+          "code": "302010400",
+          "description": "",
+          "page": 21
+        },
+        "302020000": {
+          "name": "Communications media (Communications media",
+          "code": "302020000",
+          "description": "",
+          "page": 21
+        },
+        "302020100": {
+          "name": "VHF/HF frequencies (VHF/HF frequencies",
+          "code": "302020100",
+          "description": "",
+          "page": 21
+        },
+        "302020200": {
+          "name": "Telephone (Telephone",
+          "code": "302020200",
+          "description": "",
+          "page": 21
+        },
+        "302020300": {
+          "name": "Data link communications (Data link communications",
+          "code": "302020300",
+          "description": "",
+          "page": 21
+        },
+        "302020400": {
+          "name": "Other communications media (Other communications media",
+          "code": "302020400",
+          "description": "",
+          "page": 21
+        }
+      },
+      "page": 20
+    },
+    "303000000": {
+      "name": "Human software/firmware interface (Human software interface",
+      "code": "303000000",
+      "description": "",
+      "subcategories": {
+        "303010000": {
+          "name": "Human firmware interface (Human firmware interface",
+          "code": "303010000",
+          "description": "",
+          "page": 21
+        },
+        "303010100": {
+          "name": "Firmware reliability (Firmware reliability",
+          "code": "303010100",
+          "description": "",
+          "page": 21
+        },
+        "303010200": {
+          "name": "Electronic display \"navigation\" (Electronic display",
+          "code": "303010200",
+          "description": "",
+          "page": 21
+        },
+        "303010300": {
+          "name": "Data link/digital communications (Data link/digital communications",
+          "code": "303010300",
+          "description": "",
+          "page": 21
+        },
+        "303010400": {
+          "name": "Electronic checklist and warning display (Warning/checklist display",
+          "code": "303010400",
+          "description": "",
+          "page": 21
+        },
+        "303020000": {
+          "name": "Software (Software",
+          "code": "303020000",
+          "description": "",
+          "page": 21
+        },
+        "303020100": {
+          "name": "Software reliability (Software reliability",
+          "code": "303020100",
+          "description": "",
+          "page": 22
+        },
+        "303020200": {
+          "name": "User friendliness/usability (User friendliness",
+          "code": "303020200",
+          "description": "",
+          "page": 22
+        },
+        "303020300": {
+          "name": "Menus/menu navigation (Menus/menu navigation",
+          "code": "303020300",
+          "description": "",
+          "page": 22
+        }
+      },
+      "page": 21
+    },
+    "304000000": {
+      "name": "Automation/automatic systems (Automation systems",
+      "code": "304000000",
+      "description": "",
+      "subcategories": {
+        "304010000": {
+          "name": "Automation design philosophies (Design philosophies",
+          "code": "304010000",
+          "description": "",
+          "page": 22
+        },
+        "304010100": {
+          "name": "User friendliness of automation (User friendliness",
+          "code": "304010100",
+          "description": "",
+          "page": 22
+        },
+        "304010200": {
+          "name": "System mode awareness (System mode awareness",
+          "code": "304010200",
+          "description": "",
+          "page": 22
+        },
+        "304010300": {
+          "name": "Automation generating additional workload (Additional workload",
+          "code": "304010300",
+          "description": "",
+          "page": 22
+        },
+        "304010400": {
+          "name": "Compatibility with hardware and instrumentation (Compatibility-hardware",
+          "code": "304010400",
+          "description": "",
+          "page": 22
+        },
+        "304010500": {
+          "name": "Reliability of automation (Reliability of automation",
+          "code": "304010500",
+          "description": "",
+          "page": 22
+        },
+        "304010600": {
+          "name": "Unwanted disconnects of automation (Unwanted disconnects",
+          "code": "304010600",
+          "description": "",
+          "page": 22
+        },
+        "304020000": {
+          "name": "Use of automation (Use of automation",
+          "code": "304020000",
+          "description": "",
+          "page": 22
+        },
+        "304020100": {
+          "name": "Training in the use of automation (Training-automation",
+          "code": "304020100",
+          "description": "",
+          "page": 22
+        },
+        "304020200": {
+          "name": "Reliance on automation (Reliance on automation",
+          "code": "304020200",
+          "description": "",
+          "page": 22
+        },
+        "304020300": {
+          "name": "Use/overuse of automation (Use/overuse of automation",
+          "code": "304020300",
+          "description": "",
+          "page": 22
+        },
+        "304020400": {
+          "name": "Complacency with automation (Automation complacency",
+          "code": "304020400",
+          "description": "",
+          "page": 22
+        }
+      },
+      "page": 22
+    },
+    "305000000": {
+      "name": "Automatic defences/warnings (Automatic defence/warning",
+      "code": "305000000",
+      "description": "",
+      "subcategories": {
+        "305010000": {
+          "name": "Cockpit warnings (Cockpit warnings",
+          "code": "305010000",
+          "description": "",
+          "page": 22
+        },
+        "305010100": {
+          "name": "Stall warnings (Stall warnings",
+          "code": "305010100",
+          "description": "",
+          "page": 22
+        },
+        "305010200": {
+          "name": "Windshear warnings (Windshear warnings",
+          "code": "305010200",
+          "description": "",
+          "page": 22
+        },
+        "305010300": {
+          "name": "Traffic Alert and Collision Avoidance System (TCAS",
+          "code": "305010300",
+          "description": "",
+          "page": 22
+        },
+        "305010400": {
+          "name": "Ground proximity warning system (GPWS",
+          "code": "305010400",
+          "description": "",
+          "page": 23
+        },
+        "305010500": {
+          "name": "Gear warning system (Gear warning system",
+          "code": "305010500",
+          "description": "",
+          "page": 23
+        },
+        "305020000": {
+          "name": "Air traffic control alarms/alerts (ATC alarms/alerts",
+          "code": "305020000",
+          "description": "",
+          "page": 23
+        },
+        "305020100": {
+          "name": "Conflict alert (Conflict alert",
+          "code": "305020100",
+          "description": "",
+          "page": 23
+        },
+        "305020200": {
+          "name": "Minimum safe altitude warning system (MSAWS",
+          "code": "305020200",
+          "description": "",
+          "page": 23
+        },
+        "305030000": {
+          "name": "Other defences/warnings (Other defences/warnings",
+          "code": "305030000",
+          "description": "",
+          "page": 23
+        }
+      },
+      "page": 22
+    },
+    "306000000": {
+      "name": "Operational material (Operational material",
+      "code": "306000000",
+      "description": "",
+      "subcategories": {
+        "306010000": {
+          "name": "Workplace manuals, checklists and charts (Workplace documents",
+          "code": "306010000",
+          "description": "",
+          "page": 23
+        },
+        "306010100": {
+          "name": "Workplace manuals (Workplace manuals",
+          "code": "306010100",
+          "description": "",
+          "page": 23
+        },
+        "306010200": {
+          "name": "Workplace checklists (normal) (Workplace checklists",
+          "code": "306010200",
+          "description": "",
+          "page": 23
+        },
+        "306010300": {
+          "name": "Emergency and abnormal workplace checklists (Emergency checklists",
+          "code": "306010300",
+          "description": "",
+          "page": 23
+        },
+        "306010400": {
+          "name": "Maps or charts or use of maps/charts (Maps/charts or use of ",
+          "code": "306010400",
+          "description": "",
+          "page": 23
+        },
+        "306020000": {
+          "name": "Flight progress strips (Flight progress strips",
+          "code": "306020000",
+          "description": "",
+          "page": 23
+        },
+        "306030000": {
+          "name": "Maintenance engineering material (Maintenance engineering material",
+          "code": "306030000",
+          "description": "",
+          "page": 23
+        },
+        "306030100": {
+          "name": "Maintenance task cards and process sheets - operational material (Maintenance process",
+          "code": "306030100",
+          "description": "",
+          "page": 23
+        },
+        "306040000": {
+          "name": "Operational documents, charts or checklists (Operational documents",
+          "code": "306040000",
+          "description": "",
+          "page": 23
+        },
+        "306040100": {
+          "name": "Notices and advisory material (Notices-advisory material",
+          "code": "306040100",
+          "description": "",
+          "page": 23
+        },
+        "306040200": {
+          "name": "Other publications (Other publications",
+          "code": "306040200",
+          "description": "",
+          "page": 23
+        },
+        "306040300": {
+          "name": "Aircraft safety instruction card (Aircraft safety card",
+          "code": "306040300",
+          "description": "",
+          "page": 23
+        },
+        "306040400": {
+          "name": "Written regulations (Written regulations",
+          "code": "306040400",
+          "description": "",
+          "page": 23
+        },
+        "306040500": {
+          "name": "Other handbooks/manuals (Other handbooks/manuals",
+          "code": "306040500",
+          "description": "",
+          "page": 23
+        },
+        "306040600": {
+          "name": "Other checklists (Other checklists",
+          "code": "306040600",
+          "description": "",
+          "page": 23
+        },
+        "306040700": {
+          "name": "Signage (Signage",
+          "code": "306040700",
+          "description": "",
+          "page": 24
+        },
+        "306040800": {
+          "name": "Other written/printed information (Other written information",
+          "code": "306040800",
+          "description": "",
+          "page": 24
+        }
+      },
+      "page": 23
+    },
+    "400000000": {
+      "name": "Liveware (human) - interface system support (Human v system support",
+      "code": "400000000",
+      "description": "",
+      "subcategories": {},
+      "page": 24
+    },
+    "401000000": {
+      "name": "Human interface-procedures (Human v procedures",
+      "code": "401000000",
+      "description": "",
+      "subcategories": {
+        "401010000": {
+          "name": "Human interface-Standard Operating Procedures (Human v SOP",
+          "code": "401010000",
+          "description": "",
+          "page": 24
+        },
+        "401020000": {
+          "name": "Human interface-emergency and abnormal procedures (Human v abnormal procedure",
+          "code": "401020000",
+          "description": "",
+          "page": 24
+        },
+        "401030000": {
+          "name": "Human interface-air traffic control procedures (Human v ATC procedures",
+          "code": "401030000",
+          "description": "",
+          "page": 24
+        },
+        "401030100": {
+          "name": "Human interface-air traffic control operational procedures (Human v ATC operational",
+          "code": "401030100",
+          "description": "",
+          "page": 24
+        },
+        "401030200": {
+          "name": "Human interface-Standard Instrument Departure/Standard Arrival Routes (Human v",
+          "code": "401030200",
+          "description": "",
+          "page": 24
+        },
+        "401030300": {
+          "name": "Human interface-noise abatement procedures (Human v noise abatement",
+          "code": "401030300",
+          "description": "",
+          "page": 24
+        },
+        "401040000": {
+          "name": "Human interface-aerodrome procedures (Human v aerodrome procedure",
+          "code": "401040000",
+          "description": "",
+          "page": 24
+        },
+        "401050000": {
+          "name": "Human interface-maintenance procedures (Human v maintenance procedures",
+          "code": "401050000",
+          "description": "",
+          "page": 24
+        },
+        "401050100": {
+          "name": "Human interface-maintenance recording procedures (Human v maintenance recording",
+          "code": "401050100",
+          "description": "",
+          "page": 24
+        },
+        "401060000": {
+          "name": "Human interface-company procedures (Human v company procedure",
+          "code": "401060000",
+          "description": "",
+          "page": 24
+        },
+        "401070000": {
+          "name": "Human interface-other procedures (Human v other procedures",
+          "code": "401070000",
+          "description": "",
+          "page": 24
+        },
+        "401080000": {
+          "name": "Human interface-custom and practice (Human v custom & practice",
+          "code": "401080000",
+          "description": "",
+          "page": 24
+        }
+      },
+      "page": 24
+    },
+    "402000000": {
+      "name": "Human interface-training (Human v training",
+      "code": "402000000",
+      "description": "",
+      "subcategories": {
+        "402010000": {
+          "name": "Human/system interface-basic/initial training (Human v basic training",
+          "code": "402010000",
+          "description": "",
+          "page": 24
+        },
+        "402010100": {
+          "name": "Human interface-training syllabus (Human v training syllabus",
+          "code": "402010100",
+          "description": "",
+          "page": 24
+        },
+        "402020000": {
+          "name": "Human interface-specific training (Human v specific training",
+          "code": "402020000",
+          "description": "",
+          "page": 24
+        },
+        "402030000": {
+          "name": "Human interface-simulator training (Human v simulator training",
+          "code": "402030000",
+          "description": "",
+          "page": 25
+        },
+        "402040000": {
+          "name": "Human interface-on-the-job training (Human v on-the-job training",
+          "code": "402040000",
+          "description": "",
+          "page": 25
+        },
+        "402050000": {
+          "name": "Human interface-emergency training (Human v emergency training",
+          "code": "402050000",
+          "description": "",
+          "page": 25
+        },
+        "402060000": {
+          "name": "Human interface-crew/team resource management training (Human v CRM/TRM",
+          "code": "402060000",
+          "description": "",
+          "page": 25
+        },
+        "402070000": {
+          "name": "Human interface-recurrent training (Human v recurrent training",
+          "code": "402070000",
+          "description": "",
+          "page": 25
+        },
+        "402070100": {
+          "name": "Human interface-Line Oriented Flying Training (Human LOFT",
+          "code": "402070100",
+          "description": "",
+          "page": 25
+        },
+        "402080000": {
+          "name": "Human interface-route training (Human v route training",
+          "code": "402080000",
+          "description": "",
+          "page": 25
+        },
+        "402090000": {
+          "name": "Human interface-miscellaneous training issues (Human v miscellaneous training",
+          "code": "402090000",
+          "description": "",
+          "page": 25
+        },
+        "402090100": {
+          "name": "Human/system interface-use of automation (Use of automation",
+          "code": "402090100",
+          "description": "",
+          "page": 25
+        },
+        "402090200": {
+          "name": "Human/system interface-use of maps/charts (Use of maps/charts",
+          "code": "402090200",
+          "description": "",
+          "page": 25
+        },
+        "402090300": {
+          "name": "Human/system interface-use of manuals (Use of manuals",
+          "code": "402090300",
+          "description": "",
+          "page": 25
+        },
+        "402090400": {
+          "name": "Human/sys interface-other miscellaneous training (Other training",
+          "code": "402090400",
+          "description": "",
+          "page": 25
+        }
+      },
+      "page": 24
+    },
+    "403000000": {
+      "name": "Other human - system support issues (Human/system interface-other",
+      "code": "403000000",
+      "description": "",
+      "subcategories": {},
+      "page": 25
+    },
+    "500000000": {
+      "name": "The liveware (human) - liveware (human) interface (Interface between humans",
+      "code": "500000000",
+      "description": "",
+      "subcategories": {},
+      "page": 25
+    },
+    "501000000": {
+      "name": "The interface between humans in relation to communications (Human v communications",
+      "code": "501000000",
+      "description": "",
+      "subcategories": {
+        "501010000": {
+          "name": "The interface between humans in relation to oral/aural communications (Human v spoken",
+          "code": "501010000",
+          "description": "",
+          "page": 25
+        },
+        "501010100": {
+          "name": "The interface between humans in relation to communications between crew members",
+          "code": "501010100",
+          "description": "",
+          "page": 25
+        },
+        "501010200": {
+          "name": "The interface between humans in relation to air-air communications (Human v air-air",
+          "code": "501010200",
+          "description": "",
+          "page": 25
+        },
+        "501010300": {
+          "name": "The interface between humans in relation to air-ground communications (Human v air-",
+          "code": "501010300",
+          "description": "",
+          "page": 25
+        },
+        "501010301": {
+          "name": "The interface between humans in relation to air traffic control-pilot communications",
+          "code": "501010301",
+          "description": "",
+          "page": 25
+        },
+        "501010302": {
+          "name": "The interface between humans in relation to company communications (Human v",
+          "code": "501010302",
+          "description": "",
+          "page": 25
+        },
+        "501010303": {
+          "name": "The interface between humans in relation to party line information (Human v party",
+          "code": "501010303",
+          "description": "",
+          "page": 26
+        },
+        "501010400": {
+          "name": "The interface between humans in relation to ground - ground communications (Human v",
+          "code": "501010400",
+          "description": "",
+          "page": 26
+        },
+        "501010500": {
+          "name": "The interface between humans in relation to language (Human interface-language",
+          "code": "501010500",
+          "description": "",
+          "page": 26
+        },
+        "501010600": {
+          "name": "The interface between humans in relation to accent (Human interface-accent",
+          "code": "501010600",
+          "description": "",
+          "page": 26
+        },
+        "501010700": {
+          "name": "The interface between humans in relation to phraseology (Human v phraseology",
+          "code": "501010700",
+          "description": "",
+          "page": 26
+        },
+        "501010800": {
+          "name": "The interface between humans in relation to readback/hearback (Human v",
+          "code": "501010800",
+          "description": "",
+          "page": 26
+        },
+        "501010900": {
+          "name": "The interface between humans in relation to callsign confusion (Human v callsign",
+          "code": "501010900",
+          "description": "",
+          "page": 26
+        },
+        "501011000": {
+          "name": "The interface between humans in relation to noise interference with communication (see",
+          "code": "501011000",
+          "description": "",
+          "page": 26
+        },
+        "501011100": {
+          "name": "The interface between humans in relation to aural/oral interpretation/misinterpretation",
+          "code": "501011100",
+          "description": "",
+          "page": 26
+        },
+        "501020000": {
+          "name": "The interface between humans in relation to written/read communications (Human v written/read",
+          "code": "501020000",
+          "description": "",
+          "page": 26
+        },
+        "501020100": {
+          "name": "The interface between humans in relation to documentation for communication of",
+          "code": "501020100",
+          "description": "",
+          "page": 26
+        },
+        "501020101": {
+          "name": "The interface between humans in relation to documentation incomplete/missing",
+          "code": "501020101",
+          "description": "",
+          "page": 26
+        },
+        "501020102": {
+          "name": "The interface between humans in relation to maintenance engineering task",
+          "code": "501020102",
+          "description": "",
+          "page": 26
+        },
+        "501020200": {
+          "name": "The interface between humans in relation to use of flight progress strips to communicate",
+          "code": "501020200",
+          "description": "",
+          "page": 26
+        },
+        "501020300": {
+          "name": "The interface between humans in relation to communications using data link (Human v data",
+          "code": "501020300",
+          "description": "",
+          "page": 26
+        },
+        "501020400": {
+          "name": "The interface between humans in relation to teletype communications (Human v teletype",
+          "code": "501020400",
+          "description": "",
+          "page": 26
+        },
+        "501020500": {
+          "name": "The interface between humans in relation to keying error (Human v keying error",
+          "code": "501020500",
+          "description": "",
+          "page": 26
+        },
+        "501020600": {
+          "name": "The interface between humans in relation to handwriting (Human v handwriting",
+          "code": "501020600",
+          "description": "",
+          "page": 26
+        },
+        "501020700": {
+          "name": "The interface between humans in relation to misreading (Human v misreading",
+          "code": "501020700",
+          "description": "",
+          "page": 26
+        },
+        "501020800": {
+          "name": "The interface between humans in relation to acknowledgements/feedback loop -",
+          "code": "501020800",
+          "description": "",
+          "page": 27
+        },
+        "501030000": {
+          "name": "The interface between humans in relation to visual signals (Human v visual signals",
+          "code": "501030000",
+          "description": "",
+          "page": 27
+        },
+        "501030100": {
+          "name": "The interface between humans in relation to ground-hand signals (Human v ground-hand",
+          "code": "501030100",
+          "description": "",
+          "page": 27
+        },
+        "501030200": {
+          "name": "The interface between humans in relation to acknowledgements - visual signals (Human v",
+          "code": "501030200",
+          "description": "",
+          "page": 27
+        }
+      },
+      "page": 25
+    },
+    "502000000": {
+      "name": "The interface between humans in relation to interactions/team skills crew/team resource management",
+      "code": "502000000",
+      "description": "",
+      "subcategories": {
+        "502010000": {
+          "name": "The interface between humans in relation to team skills crew/team resource management training",
+          "code": "502010000",
+          "description": "",
+          "page": 27
+        },
+        "502010100": {
+          "name": "The interface between humans in relation to coordination crew/team resource management",
+          "code": "502010100",
+          "description": "",
+          "page": 27
+        },
+        "502010200": {
+          "name": "The interface between humans in relation to incompatibility crew/team resource",
+          "code": "502010200",
+          "description": "",
+          "page": 27
+        },
+        "502010300": {
+          "name": "The interface between humans in relation to confidence/trust crew/team resource",
+          "code": "502010300",
+          "description": "",
+          "page": 27
+        },
+        "502010400": {
+          "name": "The interface between humans in relation to cross-checking crew/team resource",
+          "code": "502010400",
+          "description": "",
+          "page": 27
+        },
+        "502010500": {
+          "name": "The interface between humans in relation to authority gradient (Human v authority gradient",
+          "code": "502010500",
+          "description": "",
+          "page": 27
+        },
+        "502010600": {
+          "name": "The interface between humans in relation to peer pressure/conformity (Human v peer",
+          "code": "502010600",
+          "description": "",
+          "page": 27
+        },
+        "502010700": {
+          "name": "The interface between humans in relation to assertiveness within the team (Human v team",
+          "code": "502010700",
+          "description": "",
+          "page": 27
+        },
+        "502010800": {
+          "name": "The interface between humans in relation to briefing between team members (Human v",
+          "code": "502010800",
+          "description": "",
+          "page": 27
+        },
+        "502010900": {
+          "name": "The interface between humans in relation to self feedback (Human v self feedback",
+          "code": "502010900",
+          "description": "",
+          "page": 27
+        },
+        "502011000": {
+          "name": "The interface between humans in relation to joint decision process (Human v decision",
+          "code": "502011000",
+          "description": "",
+          "page": 27
+        },
+        "502011100": {
+          "name": "The interface between humans in relation to group climate (CRM/TRM) (Human v group",
+          "code": "502011100",
+          "description": "",
+          "page": 27
+        },
+        "502011200": {
+          "name": "The interface between humans in relation to team preparation/planning (Human v team",
+          "code": "502011200",
+          "description": "",
+          "page": 27
+        },
+        "502011300": {
+          "name": "The interface between humans in relation to team workload management (Human v",
+          "code": "502011300",
+          "description": "",
+          "page": 28
+        },
+        "502020000": {
+          "name": "The interface between humans in relation to formal coordination (Human v formal coordination",
+          "code": "502020000",
+          "description": "",
+          "page": 28
+        },
+        "502030000": {
+          "name": "The interface between humans in relation to shift/watch/team changeover (Human v team",
+          "code": "502030000",
+          "description": "",
+          "page": 28
+        },
+        "502040000": {
+          "name": "The interface between humans in relation to other interactions (Human v-other interaction",
+          "code": "502040000",
+          "description": "",
+          "page": 28
+        }
+      },
+      "page": 27
+    },
+    "503000000": {
+      "name": "The interface between humans in relation to supervision (Human interface-supervision",
+      "code": "503000000",
+      "description": "",
+      "subcategories": {
+        "503010000": {
+          "name": "The interface between humans in relation to operational supervision (Human v operational",
+          "code": "503010000",
+          "description": "",
+          "page": 28
+        },
+        "503020000": {
+          "name": "The interface between humans in relation to supervision during training (Human v training",
+          "code": "503020000",
+          "description": "",
+          "page": 28
+        },
+        "503030000": {
+          "name": "The interface between humans in relation to quality control (Human v quality control",
+          "code": "503030000",
+          "description": "",
+          "page": 28
+        },
+        "503040000": {
+          "name": "The interface between humans in relation to standards (Human interface-standards",
+          "code": "503040000",
+          "description": "",
+          "page": 28
+        }
+      },
+      "page": 28
+    },
+    "504000000": {
+      "name": "The interface between humans in relation to regulatory activities (Human v regulatory activities",
+      "code": "504000000",
+      "description": "",
+      "subcategories": {
+        "504010000": {
+          "name": "The interface between humans in relation to regulatory procedures (Regulatory procedures",
+          "code": "504010000",
+          "description": "",
+          "page": 28
+        },
+        "504020000": {
+          "name": "The interface between humans in relation to regulatory standards (Regulatory standards",
+          "code": "504020000",
+          "description": "",
+          "page": 28
+        },
+        "504020100": {
+          "name": "The interface between humans in relation to design standards (Design standards",
+          "code": "504020100",
+          "description": "",
+          "page": 28
+        },
+        "504020200": {
+          "name": "The interface between humans in relation to certification standards (Certification",
+          "code": "504020200",
+          "description": "",
+          "page": 28
+        },
+        "504030000": {
+          "name": "The interface between humans in relation to regulations (Human interface-regulations",
+          "code": "504030000",
+          "description": "",
+          "page": 28
+        },
+        "504040000": {
+          "name": "The interface between humans in relation to inspections (Human interface-inspections",
+          "code": "504040000",
+          "description": "",
+          "page": 28
+        },
+        "504050000": {
+          "name": "The interface between humans in relation to monitoring organizations (Human interface-",
+          "code": "504050000",
+          "description": "",
+          "page": 28
+        },
+        "504060000": {
+          "name": "The interface between humans in relation to surveillance (Human interface-surveillance",
+          "code": "504060000",
+          "description": "",
+          "page": 28
+        },
+        "504070000": {
+          "name": "The interface between humans in relation to audits (Human interface-audits",
+          "code": "504070000",
+          "description": "",
+          "page": 29
+        },
+        "504080000": {
+          "name": "The interface between humans in relation to checks (Human interface-checks",
+          "code": "504080000",
+          "description": "",
+          "page": 29
+        }
+      },
+      "page": 28
+    },
+    "505000000": {
+      "name": "Other human human interface (Other human human interface",
+      "code": "505000000",
+      "description": "",
+      "subcategories": {
+        "100000118": {
+          "name": "Aircraft parking position/gate (Aircraft parking position/gate",
+          "code": "100000118",
+          "description": "",
+          "page": 2
+        },
+        "100000120": {
+          "name": "Engineered materials arrestor system (EMAS) (Engineered materials arrestor system",
+          "code": "100000120",
+          "description": "",
+          "page": 2
+        },
+        "100000119": {
+          "name": "Runway safety net (Runway safety net",
+          "code": "100000119",
+          "description": "",
+          "page": 2
+        },
+        "100000056": {
+          "name": "Runway clearway (Runway clearway",
+          "code": "100000056",
+          "description": "",
+          "page": 2
+        },
+        "100000058": {
+          "name": "Runway hold position (Runway hold position",
+          "code": "100000058",
+          "description": "",
+          "page": 2
+        },
+        "100000215": {
+          "name": "Runway overrun area (Runway overrun area",
+          "code": "100000215",
+          "description": "",
+          "page": 2
+        },
+        "100000057": {
+          "name": "Runway End Safety Area (RESA) (Runway End Safety Area (RESA",
+          "code": "100000057",
+          "description": "",
+          "page": 2
+        },
+        "100000059": {
+          "name": "Runway turn pad (Runway turn pad",
+          "code": "100000059",
+          "description": "",
+          "page": 3
+        },
+        "100000050": {
+          "name": "Vehicle parking area (Vehicle parking area",
+          "code": "100000050",
+          "description": "",
+          "page": 3
+        },
+        "100000049": {
+          "name": "Vehicle movement areas / lanes (Vehicle movement areas",
+          "code": "100000049",
+          "description": "",
+          "page": 4
+        },
+        "100000061": {
+          "name": "Vehicle movement area surface condition (Vehicle movement area surface condition",
+          "code": "100000061",
+          "description": "",
+          "page": 4
+        },
+        "100000062": {
+          "name": "Blast fence (Blast fence",
+          "code": "100000062",
+          "description": "",
+          "page": 4
+        },
+        "100000065": {
+          "name": "Drainage system (Drainage system",
+          "code": "100000065",
+          "description": "",
+          "page": 4
+        },
+        "100000064": {
+          "name": "Engine run-up rig (Engine run-up rig",
+          "code": "100000064",
+          "description": "",
+          "page": 4
+        },
+        "100000063": {
+          "name": "Wildlife aerodrome fence (Wildlife aerodrome fence",
+          "code": "100000063",
+          "description": "",
+          "page": 4
+        },
+        "100000114": {
+          "name": "Fire extinguishing system - fixed (Fire extinguishing system - fixed",
+          "code": "100000114",
+          "description": "",
+          "page": 4
+        },
+        "100000113": {
+          "name": "Fire extinguishing system - portable (Fire extinguishing system - portable",
+          "code": "100000113",
+          "description": "",
+          "page": 4
+        },
+        "100000111": {
+          "name": "Fire fighting agent (Fire fighting agent ",
+          "code": "100000111",
+          "description": "",
+          "page": 4
+        },
+        "100000112": {
+          "name": "Fire fighting tender vehicle (Fire fighting tender vehicle",
+          "code": "100000112",
+          "description": "",
+          "page": 4
+        },
+        "100000110": {
+          "name": "Fire training simulator (Fire training simulator",
+          "code": "100000110",
+          "description": "",
+          "page": 4
+        },
+        "100000115": {
+          "name": "RFFS boat/vessel (RFFS boat/vessel",
+          "code": "100000115",
+          "description": "",
+          "page": 4
+        },
+        "100000068": {
+          "name": "Aerodrome fuel storage (fuel farm) (Aerodrome fuel storage (fuel farm",
+          "code": "100000068",
+          "description": "",
+          "page": 4
+        },
+        "100000067": {
+          "name": "Fuel hydrant (Fuel hydrant",
+          "code": "100000067",
+          "description": "",
+          "page": 4
+        },
+        "100000102": {
+          "name": "Aerodrome Information Technology (Aerodrome IT",
+          "code": "100000102",
+          "description": "",
+          "page": 5
+        },
+        "100000104": {
+          "name": "Aerodrome Information Display Systems (FIDB/BIDS) (Aerodrome Information Display",
+          "code": "100000104",
+          "description": "",
+          "page": 5
+        },
+        "100000103": {
+          "name": "Aerodrome Operation Database (AODB) (Aerodrome Operation Database (AODB",
+          "code": "100000103",
+          "description": "",
+          "page": 5
+        },
+        "100000105": {
+          "name": "Observation camera (Observation camera",
+          "code": "100000105",
+          "description": "",
+          "page": 5
+        },
+        "100000047": {
+          "name": "Aerodrome power supply (Aerodrome power supply",
+          "code": "100000047",
+          "description": "",
+          "page": 5
+        },
+        "100000048": {
+          "name": "Aerodrome backup power generators (Aerodrome backup power generators",
+          "code": "100000048",
+          "description": "",
+          "page": 5
+        },
+        "100000096": {
+          "name": "Aerodrome weather observation equipment (Aerodrome weather observation equipment",
+          "code": "100000096",
+          "description": "",
+          "page": 5
+        },
+        "100000098": {
+          "name": "Automated weather observing system (AWOS) (Automated weather observing system",
+          "code": "100000098",
+          "description": "",
+          "page": 5
+        },
+        "100000099": {
+          "name": "Visual Range Measurement (transmissometer) (Visual Range Measurement",
+          "code": "100000099",
+          "description": "",
+          "page": 5
+        },
+        "100000097": {
+          "name": "Windcone/windsock (Windcone/windsock",
+          "code": "100000097",
+          "description": "",
+          "page": 5
+        },
+        "100000101": {
+          "name": "Wind sensor (at glideslope) (Wind sensor (at glideslope",
+          "code": "100000101",
+          "description": "",
+          "page": 5
+        },
+        "100000100": {
+          "name": "Wind sensor (at tower) (Wind sensor (at tower",
+          "code": "100000100",
+          "description": "",
+          "page": 5
+        },
+        "100000066": {
+          "name": "FOD radar (FOD radar",
+          "code": "100000066",
+          "description": "",
+          "page": 5
+        },
+        "100000074": {
+          "name": "Ramp service equipment (Ramp service equipment",
+          "code": "100000074",
+          "description": "",
+          "page": 6
+        },
+        "100000075": {
+          "name": "Baggage cart (Baggage cart",
+          "code": "100000075",
+          "description": "",
+          "page": 6
+        },
+        "100000077": {
+          "name": "Container (Container",
+          "code": "100000077",
+          "description": "",
+          "page": 6
+        },
+        "100000076": {
+          "name": "Dolley/ trailer for pallets or containers (Dolley/ trailer for pallets or containers",
+          "code": "100000076",
+          "description": "",
+          "page": 6
+        },
+        "100000080": {
+          "name": "Ground power unit (Ground power unit",
+          "code": "100000080",
+          "description": "",
+          "page": 6
+        },
+        "100000079": {
+          "name": "Net or other material for pallets (Net or other material for pallets",
+          "code": "100000079",
+          "description": "",
+          "page": 6
+        },
+        "100000078": {
+          "name": "Pallet (Pallet",
+          "code": "100000078",
+          "description": "",
+          "page": 6
+        },
+        "100000081": {
+          "name": "Passenger wheelchair (Passenger wheelchair",
+          "code": "100000081",
+          "description": "",
+          "page": 6
+        },
+        "100000084": {
+          "name": "Ramp service vehicle (Ramp service vehicle",
+          "code": "100000084",
+          "description": "",
+          "page": 6
+        },
+        "100000085": {
+          "name": "Air start unit (Air start unit",
+          "code": "100000085",
+          "description": "",
+          "page": 6
+        },
+        "100000121": {
+          "name": "Brakes (Brakes",
+          "code": "100000121",
+          "description": "",
+          "page": 6
+        },
+        "100000122": {
+          "name": "Clutch (Clutch",
+          "code": "100000122",
+          "description": "",
+          "page": 6
+        },
+        "100000123": {
+          "name": "Other (Other",
+          "code": "100000123",
+          "description": "",
+          "page": 6
+        },
+        "100000124": {
+          "name": "Brakes (Brakes",
+          "code": "100000124",
+          "description": "",
+          "page": 6
+        },
+        "100000125": {
+          "name": "Clutch (Clutch",
+          "code": "100000125",
+          "description": "",
+          "page": 7
+        },
+        "100000126": {
+          "name": "Other (Other",
+          "code": "100000126",
+          "description": "",
+          "page": 7
+        },
+        "100000086": {
+          "name": "Baggage loading conveyor belt (Baggage loading conveyor belt",
+          "code": "100000086",
+          "description": "",
+          "page": 7
+        },
+        "100000127": {
+          "name": "Brakes (Brakes",
+          "code": "100000127",
+          "description": "",
+          "page": 7
+        },
+        "100000128": {
+          "name": "Clutch (Clutch",
+          "code": "100000128",
+          "description": "",
+          "page": 7
+        },
+        "100000129": {
+          "name": "Other (Other",
+          "code": "100000129",
+          "description": "",
+          "page": 7
+        },
+        "100000130": {
+          "name": "Brakes (Brakes",
+          "code": "100000130",
+          "description": "",
+          "page": 7
+        },
+        "100000131": {
+          "name": "Clutch (Clutch",
+          "code": "100000131",
+          "description": "",
+          "page": 7
+        },
+        "100000132": {
+          "name": "Navigation system (Navigation system",
+          "code": "100000132",
+          "description": "",
+          "page": 7
+        },
+        "100000133": {
+          "name": "Other (Other",
+          "code": "100000133",
+          "description": "",
+          "page": 7
+        },
+        "100000087": {
+          "name": "Car (Car",
+          "code": "100000087",
+          "description": "",
+          "page": 7
+        },
+        "100000134": {
+          "name": "Brakes (Brakes",
+          "code": "100000134",
+          "description": "",
+          "page": 7
+        },
+        "100000135": {
+          "name": "Clutch (Clutch",
+          "code": "100000135",
+          "description": "",
+          "page": 7
+        },
+        "100000136": {
+          "name": "Navigation system (Navigation system",
+          "code": "100000136",
+          "description": "",
+          "page": 7
+        },
+        "100000137": {
+          "name": "Other (Other",
+          "code": "100000137",
+          "description": "",
+          "page": 7
+        },
+        "100000138": {
+          "name": "Brakes (Brakes",
+          "code": "100000138",
+          "description": "",
+          "page": 7
+        },
+        "100000139": {
+          "name": "Clutch (Clutch",
+          "code": "100000139",
+          "description": "",
+          "page": 7
+        },
+        "100000140": {
+          "name": "Other (Other",
+          "code": "100000140",
+          "description": "",
+          "page": 7
+        },
+        "100000088": {
+          "name": "Forklift (lift truck) (Forklift",
+          "code": "100000088",
+          "description": "",
+          "page": 7
+        },
+        "100000141": {
+          "name": "Brakes (Brakes",
+          "code": "100000141",
+          "description": "",
+          "page": 7
+        },
+        "100000142": {
+          "name": "Clutch (Clutch",
+          "code": "100000142",
+          "description": "",
+          "page": 7
+        },
+        "100000143": {
+          "name": "Other (Other",
+          "code": "100000143",
+          "description": "",
+          "page": 7
+        },
+        "100000089": {
+          "name": "Ground guidance vehicle (Follow Me) (Ground guidance vehicle (Follow Me",
+          "code": "100000089",
+          "description": "",
+          "page": 8
+        },
+        "100000144": {
+          "name": "Brakes (Brakes",
+          "code": "100000144",
+          "description": "",
+          "page": 8
+        },
+        "100000145": {
+          "name": "Clutch (Clutch",
+          "code": "100000145",
+          "description": "",
+          "page": 8
+        },
+        "100000146": {
+          "name": "Navigation system (Navigation system",
+          "code": "100000146",
+          "description": "",
+          "page": 8
+        },
+        "100000147": {
+          "name": "Other (Other",
+          "code": "100000147",
+          "description": "",
+          "page": 8
+        },
+        "100000090": {
+          "name": "Lavatory service vehicle (Lavatory service vehicle",
+          "code": "100000090",
+          "description": "",
+          "page": 8
+        },
+        "100000148": {
+          "name": "Brakes (Brakes",
+          "code": "100000148",
+          "description": "",
+          "page": 8
+        },
+        "100000149": {
+          "name": "Clutch (Clutch",
+          "code": "100000149",
+          "description": "",
+          "page": 8
+        },
+        "100000150": {
+          "name": "Other (Other",
+          "code": "100000150",
+          "description": "",
+          "page": 8
+        },
+        "100000091": {
+          "name": "Medical services vehicle (Medical services vehicle",
+          "code": "100000091",
+          "description": "",
+          "page": 8
+        },
+        "100000151": {
+          "name": "Brakes (Brakes",
+          "code": "100000151",
+          "description": "",
+          "page": 8
+        },
+        "100000152": {
+          "name": "Clutch (Clutch",
+          "code": "100000152",
+          "description": "",
+          "page": 8
+        },
+        "100000153": {
+          "name": "Other (Other",
+          "code": "100000153",
+          "description": "",
+          "page": 8
+        },
+        "100000092": {
+          "name": "Pallet/container loading vehicle (Pallet/container loading vehicle",
+          "code": "100000092",
+          "description": "",
+          "page": 8
+        },
+        "100000154": {
+          "name": "Brakes (Brakes",
+          "code": "100000154",
+          "description": "",
+          "page": 8
+        },
+        "100000155": {
+          "name": "Clutch (Clutch",
+          "code": "100000155",
+          "description": "",
+          "page": 8
+        },
+        "100000156": {
+          "name": "Guard or handrail (Guard or handrail",
+          "code": "100000156",
+          "description": "",
+          "page": 8
+        },
+        "100000157": {
+          "name": "Other (Other",
+          "code": "100000157",
+          "description": "",
+          "page": 8
+        },
+        "100000093": {
+          "name": "High-loader or scissor-lift truck (excluding catering truck) (Passenger scissor-lift",
+          "code": "100000093",
+          "description": "",
+          "page": 8
+        },
+        "100000158": {
+          "name": "Brakes (Brakes",
+          "code": "100000158",
+          "description": "",
+          "page": 8
+        },
+        "100000159": {
+          "name": "Clutch (Clutch",
+          "code": "100000159",
+          "description": "",
+          "page": 8
+        },
+        "100000160": {
+          "name": "Other (Other",
+          "code": "100000160",
+          "description": "",
+          "page": 8
+        },
+        "100000161": {
+          "name": "Brakes (Brakes",
+          "code": "100000161",
+          "description": "",
+          "page": 9
+        },
+        "100000162": {
+          "name": "Clutch (Clutch",
+          "code": "100000162",
+          "description": "",
+          "page": 9
+        },
+        "100000163": {
+          "name": "Guard or handrail (Guard or handrail",
+          "code": "100000163",
+          "description": "",
+          "page": 9
+        },
+        "100000164": {
+          "name": "Other (Other",
+          "code": "100000164",
+          "description": "",
+          "page": 9
+        },
+        "100000165": {
+          "name": "Brakes (Brakes",
+          "code": "100000165",
+          "description": "",
+          "page": 9
+        },
+        "100000166": {
+          "name": "Clutch (Clutch",
+          "code": "100000166",
+          "description": "",
+          "page": 9
+        },
+        "100000167": {
+          "name": "Other (Other",
+          "code": "100000167",
+          "description": "",
+          "page": 9
+        },
+        "100000094": {
+          "name": "Tracktor (Tracktor",
+          "code": "100000094",
+          "description": "",
+          "page": 9
+        },
+        "100000168": {
+          "name": "Brakes (Brakes",
+          "code": "100000168",
+          "description": "",
+          "page": 9
+        },
+        "100000169": {
+          "name": "Clutch (Clutch",
+          "code": "100000169",
+          "description": "",
+          "page": 9
+        },
+        "100000170": {
+          "name": "Coupling (Coupling",
+          "code": "100000170",
+          "description": "",
+          "page": 9
+        },
+        "100000171": {
+          "name": "Other (Other",
+          "code": "100000171",
+          "description": "",
+          "page": 9
+        },
+        "100000172": {
+          "name": "Brakes (Brakes",
+          "code": "100000172",
+          "description": "",
+          "page": 9
+        },
+        "100000173": {
+          "name": "Clutch (Clutch",
+          "code": "100000173",
+          "description": "",
+          "page": 9
+        },
+        "100000174": {
+          "name": "Other (Other",
+          "code": "100000174",
+          "description": "",
+          "page": 9
+        },
+        "100000095": {
+          "name": "Tow truck (Tow truck",
+          "code": "100000095",
+          "description": "",
+          "page": 9
+        },
+        "100000175": {
+          "name": "Brakes (Brakes",
+          "code": "100000175",
+          "description": "",
+          "page": 9
+        },
+        "100000176": {
+          "name": "Clutch (Clutch",
+          "code": "100000176",
+          "description": "",
+          "page": 9
+        },
+        "100000177": {
+          "name": "Coupling (Coupling",
+          "code": "100000177",
+          "description": "",
+          "page": 9
+        },
+        "100000178": {
+          "name": "Tow barless/elevating tow vehicle (Tow barless/elevating tow vehicle",
+          "code": "100000178",
+          "description": "",
+          "page": 9
+        },
+        "100000072": {
+          "name": "Aircraft parking equipment (chocks) (Aircraft parking equipment (chocks",
+          "code": "100000072",
+          "description": "",
+          "page": 9
+        },
+        "100000071": {
+          "name": "Aircraft tie down equipment (Aircraft tie down equipment",
+          "code": "100000071",
+          "description": "",
+          "page": 10
+        },
+        "100000073": {
+          "name": "Parking guidance equipment (fixed) (Parking guidance equipment (fixed",
+          "code": "100000073",
+          "description": "",
+          "page": 10
+        },
+        "100000069": {
+          "name": "Tow bar pin (Tow bar pin",
+          "code": "100000069",
+          "description": "",
+          "page": 10
+        },
+        "100000070": {
+          "name": "Tow vehicle/tractor (Tow vehicle/tractor",
+          "code": "100000070",
+          "description": "",
+          "page": 10
+        },
+        "100000083": {
+          "name": "Traffic barrier (Traffic barrier",
+          "code": "100000083",
+          "description": "",
+          "page": 10
+        },
+        "100000082": {
+          "name": "Traffic cone (Traffic cone",
+          "code": "100000082",
+          "description": "",
+          "page": 10
+        },
+        "100000108": {
+          "name": "Runway guard lights (Runway guard lights",
+          "code": "100000108",
+          "description": "",
+          "page": 11
+        },
+        "100000109": {
+          "name": "Other lighting (Other lighting",
+          "code": "100000109",
+          "description": "",
+          "page": 11
+        },
+        "100000184": {
+          "name": "Wire obstacle marking (Wire marking",
+          "code": "100000184",
+          "description": "",
+          "page": 12
+        },
+        "100000051": {
+          "name": "Aircraft de-icing (Aircraft de-icing",
+          "code": "100000051",
+          "description": "",
+          "page": 12
+        },
+        "100000117": {
+          "name": "Aerodrome/heliport wildlife control operations (Wildlife control",
+          "code": "100000117",
+          "description": "",
+          "page": 13
+        },
+        "100000001": {
+          "name": "Aerodrome procedures generally (Aerodrome procedures",
+          "code": "100000001",
+          "description": "",
+          "page": 13
+        },
+        "100000106": {
+          "name": "Aerodrome emergency procedures (Aerodrome emergency procedures",
+          "code": "100000106",
+          "description": "",
+          "page": 13
+        },
+        "100000107": {
+          "name": "Aerodrome environmental procedures (Aerodrome environmental procedures",
+          "code": "100000107",
+          "description": "",
+          "page": 13
+        },
+        "100000009": {
+          "name": "Aerodrome refueling procedures (Aerodrome refueling procedures",
+          "code": "100000009",
+          "description": "",
+          "page": 13
+        },
+        "100000052": {
+          "name": "Aircraft de-icing procedures (Aircraft de-icing procedures",
+          "code": "100000052",
+          "description": "",
+          "page": 13
+        },
+        "100000011": {
+          "name": "Dangerous goods handling procedures (Dangerous goods handling procedures",
+          "code": "100000011",
+          "description": "",
+          "page": 13
+        },
+        "100000005": {
+          "name": "Facility maintenance procedures (Facility maintenance procedures",
+          "code": "100000005",
+          "description": "",
+          "page": 13
+        },
+        "100000006": {
+          "name": "Foreign object removal/control procedures (FOD) (Foreign object removal/control procedures",
+          "code": "100000006",
+          "description": "",
+          "page": 13
+        },
+        "100000004": {
+          "name": "Friction measurement procedures (Friction measurement procedures",
+          "code": "100000004",
+          "description": "",
+          "page": 13
+        },
+        "100000003": {
+          "name": "Hazard notification procedures (Hazard notification procedures",
+          "code": "100000003",
+          "description": "",
+          "page": 13
+        },
+        "100000045": {
+          "name": "Low visibility procedure (LVP) (Low visibility procedure",
+          "code": "100000045",
+          "description": "",
+          "page": 14
+        },
+        "100000013": {
+          "name": "Movement area management procedures (Movement area management procedures",
+          "code": "100000013",
+          "description": "",
+          "page": 14
+        },
+        "100000010": {
+          "name": "Runway maintenance procedures (Runway maintenance procedures",
+          "code": "100000010",
+          "description": "",
+          "page": 14
+        },
+        "100000007": {
+          "name": "Snow/ice/frost removal procedures (Snow/ice/frost removal procedures",
+          "code": "100000007",
+          "description": "",
+          "page": 14
+        },
+        "100000012": {
+          "name": "Traffic area management procedures (Traffic area management procedures",
+          "code": "100000012",
+          "description": "",
+          "page": 14
+        },
+        "100000008": {
+          "name": "Vehicle control procedures (Vehicle control procedures",
+          "code": "100000008",
+          "description": "",
+          "page": 14
+        },
+        "100000002": {
+          "name": "Wildlife control procedures (Wildlife control procedures",
+          "code": "100000002",
+          "description": "",
+          "page": 14
+        },
+        "100000014": {
+          "name": "Animal control procedures (Animal control procedures",
+          "code": "100000014",
+          "description": "",
+          "page": 14
+        },
+        "100000015": {
+          "name": "Bird control procedures (Bird control procedures",
+          "code": "100000015",
+          "description": "",
+          "page": 14
+        },
+        "100000116": {
+          "name": "Security camera (Security camera",
+          "code": "100000116",
+          "description": "",
+          "page": 14
+        },
+        "100000219": {
+          "name": "TIME LIMITS/MAINTENANCE CHECKS (ATA Code 0500) (0500 TIME LIMITS/MAINTENANCE",
+          "code": "100000219",
+          "description": "",
+          "page": 15
+        },
+        "100000220": {
+          "name": "Time Limits (ATA Code 0510) (0510 Time Limits",
+          "code": "100000220",
+          "description": "",
+          "page": 15
+        },
+        "100000221": {
+          "name": "Scheduled Maintenance Checks (ATA Code 0520) (0520 Scheduled Maintenance Checks",
+          "code": "100000221",
+          "description": "",
+          "page": 15
+        },
+        "100000222": {
+          "name": "Unscheduled Maintenance checks (ATA Code 0550) (0550 Unscheduled Maintenance",
+          "code": "100000222",
+          "description": "",
+          "page": 15
+        },
+        "100000223": {
+          "name": "DIMENSIONS AND AREAS (ATA Code 0600) (0600 DIMENSIONS AND AREAS",
+          "code": "100000223",
+          "description": "",
+          "page": 15
+        },
+        "100000181": {
+          "name": "0930 Air towing (0930 Air towing",
+          "code": "100000181",
+          "description": "",
+          "page": 16
+        },
+        "100000182": {
+          "name": "Air tow cable (Air tow cable",
+          "code": "100000182",
+          "description": "",
+          "page": 16
+        },
+        "100000224": {
+          "name": "STANDARD PRACTICES-AIRFRAME (ATA Code 2000) (2000 STANDARD PRACTICES-AIRFRAME ",
+          "code": "100000224",
+          "description": "",
+          "page": 17
+        },
+        "100000217": {
+          "name": "Equipment cooling system (Equipment cooling system",
+          "code": "100000217",
+          "description": "",
+          "page": 18
+        },
+        "100000186": {
+          "name": "2200 Autoflight system - general (2200 Autoflight system - general",
+          "code": "100000186",
+          "description": "",
+          "page": 19
+        },
+        "100000187": {
+          "name": "Alpha Protection (Alpha Protection",
+          "code": "100000187",
+          "description": "",
+          "page": 19
+        },
+        "100000244": {
+          "name": "Auto Flight control panel (Auto Flight control panel",
+          "code": "100000244",
+          "description": "",
+          "page": 19
+        },
+        "100000188": {
+          "name": "Alpha floor (Alpha floor",
+          "code": "100000188",
+          "description": "",
+          "page": 19
+        },
+        "100000054": {
+          "name": "Speech Communications (ATA Code:2310) (2310 Speech Communications",
+          "code": "100000054",
+          "description": "",
+          "page": 20
+        },
+        "100000225": {
+          "name": "SATCOM (ATA Code 2315) (2315 SATCOM",
+          "code": "100000225",
+          "description": "",
+          "page": 20
+        },
+        "100000258": {
+          "name": "Cockpit Loudspeaker (Cockpit Loudspeaker",
+          "code": "100000258",
+          "description": "",
+          "page": 21
+        },
+        "100000016": {
+          "name": "2397 Communications systems wiring (2397 Communications systems wiring",
+          "code": "100000016",
+          "description": "",
+          "page": 21
+        },
+        "100000262": {
+          "name": "Battery Hot Bus (Battery Hot Bus",
+          "code": "100000262",
+          "description": "",
+          "page": 22
+        },
+        "100000253": {
+          "name": "AC Circuit Breaker (AC Circuit Breaker",
+          "code": "100000253",
+          "description": "",
+          "page": 23
+        },
+        "100000254": {
+          "name": "AC Circuitry switch (AC Circuitry switch",
+          "code": "100000254",
+          "description": "",
+          "page": 23
+        },
+        "100000255": {
+          "name": "AC Distribution bus bar (AC Distribution bus bar",
+          "code": "100000255",
+          "description": "",
+          "page": 23
+        },
+        "100000256": {
+          "name": "AC Distribution relay (AC Distribution relay",
+          "code": "100000256",
+          "description": "",
+          "page": 23
+        },
+        "100000257": {
+          "name": "AC Wiring (AC Wiring",
+          "code": "100000257",
+          "description": "",
+          "page": 23
+        },
+        "100000261": {
+          "name": "Cabin passenger service unit (Cabin passenger service unit",
+          "code": "100000261",
+          "description": "",
+          "page": 24
+        },
+        "100000193": {
+          "name": "Ceiling panel (Ceiling panel",
+          "code": "100000193",
+          "description": "",
+          "page": 24
+        },
+        "100000251": {
+          "name": "Movable Class Divider (Movable Class Divider",
+          "code": "100000251",
+          "description": "",
+          "page": 25
+        },
+        "100000192": {
+          "name": "Latch (Latch",
+          "code": "100000192",
+          "description": "",
+          "page": 25
+        },
+        "100000252": {
+          "name": "Lift (Lift",
+          "code": "100000252",
+          "description": "",
+          "page": 25
+        },
+        "100000191": {
+          "name": "Trolley/food cart (Trolley/food cart",
+          "code": "100000191",
+          "description": "",
+          "page": 25
+        },
+        "100000189": {
+          "name": "2550 Cargo compartments (2550 Cargo compartments",
+          "code": "100000189",
+          "description": "",
+          "page": 25
+        },
+        "100000194": {
+          "name": "Portable emergency light (Portable emergency light",
+          "code": "100000194",
+          "description": "",
+          "page": 26
+        },
+        "100000267": {
+          "name": "Cargo compartment fire detection (Cargo compartment fire detection",
+          "code": "100000267",
+          "description": "",
+          "page": 27
+        },
+        "100000260": {
+          "name": "IFE fire detection (IFE fire detection",
+          "code": "100000260",
+          "description": "",
+          "page": 27
+        },
+        "100000268": {
+          "name": "Toilet fire detection (Toilet fire detection ",
+          "code": "100000268",
+          "description": "",
+          "page": 27
+        },
+        "100000195": {
+          "name": "Aileron actuator (Aileron actuator",
+          "code": "100000195",
+          "description": "",
+          "page": 29
+        },
+        "100000180": {
+          "name": "Health and useage monitoring system (HUMS",
+          "code": "100000180",
+          "description": "",
+          "page": 35
+        },
+        "100000196": {
+          "name": "Weight-Balance System (Weight-Balance System",
+          "code": "100000196",
+          "description": "",
+          "page": 35
+        },
+        "100000246": {
+          "name": "Flap configuration warning system (Flap configuration warning system",
+          "code": "100000246",
+          "description": "",
+          "page": 36
+        },
+        "100000247": {
+          "name": "Gear configuration warning system (Gear configuration warning system",
+          "code": "100000247",
+          "description": "",
+          "page": 36
+        },
+        "100000249": {
+          "name": "Speedbrake configuration warning system (Speedbrake configuration warning",
+          "code": "100000249",
+          "description": "",
+          "page": 36
+        },
+        "100000185": {
+          "name": "Take-off configuration warning system (Take-off configuration warning system",
+          "code": "100000185",
+          "description": "",
+          "page": 36
+        },
+        "100000250": {
+          "name": "Trim configuration warning system (Trim configuration warning system",
+          "code": "100000250",
+          "description": "",
+          "page": 36
+        },
+        "100000248": {
+          "name": "Other configuration warning system (Other configuration warning system",
+          "code": "100000248",
+          "description": "",
+          "page": 36
+        },
+        "100000245": {
+          "name": "Auto brake system (Auto brake system",
+          "code": "100000245",
+          "description": "",
+          "page": 37
+        },
+        "100000202": {
+          "name": "Main tyre pressure (Main tyre pressure",
+          "code": "100000202",
+          "description": "",
+          "page": 38
+        },
+        "100000203": {
+          "name": "Nose tyre pressure (Nose tyre pressure",
+          "code": "100000203",
+          "description": "",
+          "page": 38
+        },
+        "100000200": {
+          "name": "Tail landing gear tyre (Tail landing gear tyre",
+          "code": "100000200",
+          "description": "",
+          "page": 38
+        },
+        "100000201": {
+          "name": "Tyre pressure indications (Tyre pressure indications",
+          "code": "100000201",
+          "description": "",
+          "page": 38
+        },
+        "100000017": {
+          "name": "Tyre tube (ATA Code:3245) (3245 Tyre tube",
+          "code": "100000017",
+          "description": "",
+          "page": 38
+        },
+        "100000198": {
+          "name": "Main wheel bearing (Main wheel bearing",
+          "code": "100000198",
+          "description": "",
+          "page": 38
+        },
+        "100000199": {
+          "name": "Nose wheel bearing (Nose wheel bearing",
+          "code": "100000199",
+          "description": "",
+          "page": 38
+        },
+        "100000197": {
+          "name": "Ballast Resistor (Ballast Resistor",
+          "code": "100000197",
+          "description": "",
+          "page": 39
+        },
+        "100000204": {
+          "name": "Stand-by altimeter (Stand-by altimeter",
+          "code": "100000204",
+          "description": "",
+          "page": 40
+        },
+        "100000205": {
+          "name": "Stand-by compass (Stand-by compass",
+          "code": "100000205",
+          "description": "",
+          "page": 41
+        },
+        "100000269": {
+          "name": "Enhanced Vision Systems (EVS) (Enhanced Vision Systems (EVS",
+          "code": "100000269",
+          "description": "",
+          "page": 42
+        },
+        "100000206": {
+          "name": "3850 Water systems indications (3850 Water systems indications",
+          "code": "100000206",
+          "description": "",
+          "page": 45
+        },
+        "100000226": {
+          "name": "Shared Avionic Resources (ATA Code 4210) (4210 Shared Avionic Resources",
+          "code": "100000226",
+          "description": "",
+          "page": 45
+        },
+        "100000227": {
+          "name": "Core System (ATA Code 4220) (4220 Core System",
+          "code": "100000227",
+          "description": "",
+          "page": 45
+        },
+        "100000228": {
+          "name": "Communication Network (ATA Code 4230) (4230 Communication Network",
+          "code": "100000228",
+          "description": "",
+          "page": 45
+        },
+        "100000229": {
+          "name": "Remote Shared Resources (ATA Code 4240) (4240 Remote Shared Resources",
+          "code": "100000229",
+          "description": "",
+          "page": 45
+        },
+        "100000266": {
+          "name": "E-Charts (E-Charts",
+          "code": "100000266",
+          "description": "",
+          "page": 46
+        },
+        "100000263": {
+          "name": "Electronic Flight Bag - Class 1 (EFB - Class 1",
+          "code": "100000263",
+          "description": "",
+          "page": 46
+        },
+        "100000264": {
+          "name": "Electronic Flight Bag - Class 2 (EFB - Class 2",
+          "code": "100000264",
+          "description": "",
+          "page": 46
+        },
+        "100000265": {
+          "name": "Electronic Flight Bag - Class 3 (EFB - Class 3",
+          "code": "100000265",
+          "description": "",
+          "page": 46
+        },
+        "100000208": {
+          "name": "Cargo pallet locks (Cargo pallet locks",
+          "code": "100000208",
+          "description": "",
+          "page": 48
+        },
+        "100000207": {
+          "name": "Cargo pallet rails (Cargo pallet rails",
+          "code": "100000207",
+          "description": "",
+          "page": 48
+        },
+        "100000209": {
+          "name": "Personnel carrying device / harness (Personnel carrying device / harness",
+          "code": "100000209",
+          "description": "",
+          "page": 48
+        },
+        "100000210": {
+          "name": "Envelope rip line (Envelope rip line",
+          "code": "100000210",
+          "description": "",
+          "page": 49
+        },
+        "100000211": {
+          "name": "Suspension cables (Suspension cables",
+          "code": "100000211",
+          "description": "",
+          "page": 50
+        },
+        "100000230": {
+          "name": "Investigation, Cleanup and Aerodynamic Smoothness (ATA Code 5110) (5110 Investigation,",
+          "code": "100000230",
+          "description": "",
+          "page": 50
+        },
+        "100000231": {
+          "name": "Processes (ATA Code 5120) (5120 Processes",
+          "code": "100000231",
+          "description": "",
+          "page": 50
+        },
+        "100000232": {
+          "name": "Materials (ATA Code 5130) (5130 Materials",
+          "code": "100000232",
+          "description": "",
+          "page": 50
+        },
+        "100000233": {
+          "name": "Fasteners (ATA Code 5140) (5140 Fasteners",
+          "code": "100000233",
+          "description": "",
+          "page": 50
+        },
+        "100000234": {
+          "name": "Support of Airplane for Repair and Alignment Check Procedures (ATA Code 5150) (5150",
+          "code": "100000234",
+          "description": "",
+          "page": 50
+        },
+        "100000235": {
+          "name": "Control-Surface Balancing (ATA Code 5160) (5160 Control-Surface Balancing",
+          "code": "100000235",
+          "description": "",
+          "page": 50
+        },
+        "100000236": {
+          "name": "Repairs (ATA Code 5170) (5170 Repairs",
+          "code": "100000236",
+          "description": "",
+          "page": 50
+        },
+        "100000237": {
+          "name": "Electrical Bonding (ATA Code 5180) (5180 Electrical Bonding",
+          "code": "100000237",
+          "description": "",
+          "page": 50
+        },
+        "100000259": {
+          "name": "Door power assist (Door power assist",
+          "code": "100000259",
+          "description": "",
+          "page": 51
+        },
+        "100000018": {
+          "name": "Door system wiring (ATA Code:5297) (5297 Door system wiring",
+          "code": "100000018",
+          "description": "",
+          "page": 52
+        },
+        "100000179": {
+          "name": "Radome (Radome",
+          "code": "100000179",
+          "description": "",
+          "page": 53
+        },
+        "100000216": {
+          "name": "Canopy jettison system (Canopy jettison system",
+          "code": "100000216",
+          "description": "",
+          "page": 55
+        },
+        "100000212": {
+          "name": "Fligght compartment window frame (Flight compartment window frame",
+          "code": "100000212",
+          "description": "",
+          "page": 55
+        },
+        "100000213": {
+          "name": "Flight compartment window inner pane (Flight compartment window inner pane",
+          "code": "100000213",
+          "description": "",
+          "page": 55
+        },
+        "100000214": {
+          "name": "Flight compartment window outer pane (Flight compartment window outer pane",
+          "code": "100000214",
+          "description": "",
+          "page": 55
+        },
+        "100000019": {
+          "name": "5780 not assigned (5780 not assigned",
+          "code": "100000019",
+          "description": "",
+          "page": 58
+        },
+        "100000238": {
+          "name": "STANDARD PRACTICES - PROPELLER/ROTOR (ATA Code 6000) (6000 STANDARD PRACTICES -",
+          "code": "100000238",
+          "description": "",
+          "page": 58
+        },
+        "100000239": {
+          "name": "STANDARD PRACTICES - ENGINES (ATA Code 7000) (7000 STANDARD PRACTICES - ENGINES",
+          "code": "100000239",
+          "description": "",
+          "page": 63
+        },
+        "100000020": {
+          "name": "Fuel Flow Sensor (ATA Code:7333) (7333 Fuel Flow Sensor",
+          "code": "100000020",
+          "description": "",
+          "page": 67
+        },
+        "100000240": {
+          "name": "PROPULSION AUGMENTATION (ATA Code 8400) (8400 PROPULSION AUGMENTATION",
+          "code": "100000240",
+          "description": "",
+          "page": 74
+        },
+        "100000241": {
+          "name": "Jet Assist Takeoff (ATA Code 8410) (8410 Jet Assist Takeoff",
+          "code": "100000241",
+          "description": "",
+          "page": 74
+        },
+        "100000242": {
+          "name": "CHARTS (ATA Code 9100) (9100 CHARTS",
+          "code": "100000242",
+          "description": "",
+          "page": 76
+        },
+        "100000218": {
+          "name": "Actual gross weight (Actual gross weight",
+          "code": "100000218",
+          "description": "",
+          "page": 78
+        },
+        "100000044": {
+          "name": "CPDLC: Controller Pilot Data Link Communication (CPDLC",
+          "code": "100000044",
+          "description": "",
+          "page": 82
+        },
+        "100000026": {
+          "name": "Use of the cowling system (Cowling system",
+          "code": "100000026",
+          "description": "",
+          "page": 82
+        },
+        "100000036": {
+          "name": "Use of documentation/guidance material (Documentation/guidance material",
+          "code": "100000036",
+          "description": "",
+          "page": 82
+        },
+        "100000022": {
+          "name": "Use of leading edge devices (flaps/slats) (Leading edge devices",
+          "code": "100000022",
+          "description": "",
+          "page": 82
+        },
+        "100000023": {
+          "name": "Use of trailing edge devices (Trailing edge devices",
+          "code": "100000023",
+          "description": "",
+          "page": 83
+        },
+        "100000025": {
+          "name": "Use of the mixture control (Mixture control",
+          "code": "100000025",
+          "description": "",
+          "page": 84
+        },
+        "100000024": {
+          "name": "Use of the throttle (Throttle",
+          "code": "100000024",
+          "description": "",
+          "page": 84
+        },
+        "100000028": {
+          "name": "Use of water injection system (Water injection",
+          "code": "100000028",
+          "description": "",
+          "page": 84
+        },
+        "100000032": {
+          "name": "Operation of the popeller feathering system (Propeller feathering",
+          "code": "100000032",
+          "description": "",
+          "page": 84
+        },
+        "100000034": {
+          "name": "Operation of the propeller pitch control (Propeller pitch control",
+          "code": "100000034",
+          "description": "",
+          "page": 84
+        },
+        "100000033": {
+          "name": "Operation of the propller/rotor brake (Propeller/rotor brake",
+          "code": "100000033",
+          "description": "",
+          "page": 84
+        },
+        "100000029": {
+          "name": "Use/operation of the recording system (Recording systems",
+          "code": "100000029",
+          "description": "",
+          "page": 84
+        },
+        "100000030": {
+          "name": "Operation of the CVR (CVR",
+          "code": "100000030",
+          "description": "",
+          "page": 84
+        },
+        "100000031": {
+          "name": "Operation of the FDR (FDR",
+          "code": "100000031",
+          "description": "",
+          "page": 84
+        },
+        "100000021": {
+          "name": "Use of the towing system (Towing system",
+          "code": "100000021",
+          "description": "",
+          "page": 84
+        },
+        "100000037": {
+          "name": "Operation/use of the transponder (Transponder",
+          "code": "100000037",
+          "description": "",
+          "page": 84
+        },
+        "100000038": {
+          "name": "Altitude (Altitude",
+          "code": "100000038",
+          "description": "",
+          "page": 86
+        },
+        "100000040": {
+          "name": "Route (Route",
+          "code": "100000040",
+          "description": "",
+          "page": 86
+        },
+        "100000039": {
+          "name": "Speed (Speed",
+          "code": "100000039",
+          "description": "",
+          "page": 86
+        },
+        "100000041": {
+          "name": "Other (Other",
+          "code": "100000041",
+          "description": "",
+          "page": 86
+        },
+        "100000183": {
+          "name": "Landing site reconnaissance (Landing site reconnaissance",
+          "code": "100000183",
+          "description": "",
+          "page": 87
+        },
+        "100000042": {
+          "name": "ATM Flight plan (ATM Flight plan",
+          "code": "100000042",
+          "description": "",
+          "page": 87
+        },
+        "100000043": {
+          "name": "Other flight planning issues (Other flight planning",
+          "code": "100000043",
+          "description": "",
+          "page": 87
+        },
+        "100000243": {
+          "name": "Fuel load (Fuel load",
+          "code": "100000243",
+          "description": "",
+          "page": 88
+        },
+        "100000046": {
+          "name": "ATM backup power (ATM backup power",
+          "code": "100000046",
+          "description": "",
+          "page": 92
+        },
+        "100000270": {
+          "name": "STAP - Parameters Automatic Transmission System (STAP",
+          "code": "100000270",
+          "description": "",
+          "page": 102
+        },
+        "100000055": {
+          "name": "Meteorological service operations (Meteorological service operations",
+          "code": "100000055",
+          "description": "",
+          "page": 106
+        }
+      },
+      "page": 29
+    }
+  },
+  "classification_mappings": {
+    "primary_categories": [
+      "ADRM",
+      "AMAN",
+      "ARC",
+      "BIRD",
+      "CABIN",
+      "GCOL",
+      "LOC-G",
+      "LOC-I",
+      "LOLI",
+      "RAMP",
+      "RE",
+      "TURB",
+      "UIMC",
+      "WSTRW",
+      "OTHR",
+      "UNK",
+      "ATM",
+      "CFIT",
+      "FUEL",
+      "ICE",
+      "MAC",
+      "RI",
+      "SCF-NP",
+      "SCF-PP"
+    ],
+    "keyword_patterns": {
+      "ADRM": [
+        "improperly",
+        "approved",
+        "with",
+        "runways",
+        "deficiencies",
+        "includes",
+        "taxiways",
+        "construction",
+        "marked",
+        "closed",
+        "associated",
+        "issues",
+        "aerodrome",
+        "state",
+        "interference"
+      ],
+      "AMAN": [
+        "with",
+        "maneuvre",
+        "includes",
+        "other",
+        "aircraft",
+        "terrain",
+        "weather",
+        "intentional",
+        "category",
+        "this",
+        "collision",
+        "obstacles",
+        "abrupt",
+        "avoid",
+        "maneuvering"
+      ],
+      "ARC": [
+        "center",
+        "heavy",
+        "hard",
+        "landing",
+        "takeoff",
+        "surface",
+        "contact",
+        "involving",
+        "landings",
+        "long",
+        "runway",
+        "abnormal",
+        "fast"
+      ],
+      "BIRD": [
+        "birdstrike",
+        "with",
+        "ingestion",
+        "birds",
+        "occur",
+        "collision",
+        "phase",
+        "several",
+        "flight",
+        "near"
+      ],
+      "CABIN": [
+        "events",
+        "april",
+        "values",
+        "page",
+        "cabin",
+        "safety",
+        "attribute"
+      ],
+      "GCOL": [
+        "structure",
+        "with",
+        "vehicle",
+        "building",
+        "includes",
+        "aircraft",
+        "collisions",
+        "ground",
+        "collision",
+        "person",
+        "obstacle"
+      ],
+      "LOC-G": [
+        "control",
+        "april",
+        "loss",
+        "values",
+        "ground",
+        "page",
+        "attribute"
+      ],
+      "LOC-I": [
+        "control",
+        "while",
+        "includes",
+        "rotorcraft",
+        "loss",
+        "maneuvering",
+        "height",
+        "inflight",
+        "phase",
+        "flight",
+        "excluding",
+        "taxi",
+        "note"
+      ],
+      "LOLI": [
+        "aircraft",
+        "only",
+        "applicable",
+        "loss",
+        "lifting",
+        "rely",
+        "static",
+        "maintain",
+        "increase",
+        "flight",
+        "that",
+        "lift",
+        "route",
+        "conditions"
+      ],
+      "RAMP": [
+        "equipment",
+        "external",
+        "systems",
+        "failures",
+        "lifting",
+        "release",
+        "ground",
+        "malfunctions",
+        "handling",
+        "onboard",
+        "combustive",
+        "fire",
+        "load",
+        "explosion"
+      ],
+      "RE": [
+        "either",
+        "takeoff",
+        "landing",
+        "only",
+        "applicable",
+        "intentional",
+        "during",
+        "phase",
+        "unintentional",
+        "runway",
+        "excursion"
+      ],
+      "TURB": [
+        "turbulence",
+        "includes",
+        "excludes",
+        "unprepared",
+        "landing",
+        "sites",
+        "foreign",
+        "launch",
+        "encounter",
+        "heliports",
+        "winch",
+        "loose",
+        "objects",
+        "failure",
+        "natural"
+      ],
+      "UIMC": [
+        "unintended",
+        "flying",
+        "precursor",
+        "according",
+        "applicable",
+        "cfit",
+        "flight",
+        "lalt",
+        "pilot",
+        "visual",
+        "used"
+      ],
+      "WSTRW": [
+        "includes",
+        "excludes",
+        "unprepared",
+        "landing",
+        "sites",
+        "foreign",
+        "launch",
+        "heliports",
+        "thunderstorm",
+        "winch",
+        "loose",
+        "objects",
+        "failure",
+        "windshear",
+        "natural"
+      ],
+      "OTHR": [
+        "type",
+        "includes",
+        "other",
+        "april",
+        "covered",
+        "category",
+        "this",
+        "that",
+        "occurrence"
+      ],
+      "UNK": [
+        "unknown",
+        "occurrences",
+        "includes",
+        "aircraft",
+        "there",
+        "those",
+        "undetermined",
+        "cases",
+        "where",
+        "missing"
+      ],
+      "ATM": [
+        "surveillance",
+        "occurrences",
+        "navigation",
+        "management",
+        "traffic",
+        "service",
+        "involving",
+        "issues",
+        "communications"
+      ],
+      "CFIT": [
+        "water",
+        "with",
+        "control",
+        "terrain",
+        "without",
+        "loss",
+        "inflight",
+        "collision",
+        "obstacle",
+        "indication",
+        "near"
+      ],
+      "FUEL": [
+        "contamination",
+        "fuel",
+        "exhaustion",
+        "starvation",
+        "wrong",
+        "issues",
+        "powerplant"
+      ],
+      "ICE": [
+        "accumulation",
+        "frost",
+        "aircraft",
+        "surfaces",
+        "freezing",
+        "rain",
+        "snow"
+      ],
+      "MAC": [
+        "alerts",
+        "airprox",
+        "aircraft",
+        "loss",
+        "collisions",
+        "separation",
+        "between",
+        "near",
+        "acas"
+      ],
+      "RI": [
+        "vehicle",
+        "aircraft",
+        "incursion",
+        "person",
+        "runway"
+      ],
+      "SCF-NP": [
+        "other",
+        "aircraft",
+        "malfunction",
+        "system",
+        "component",
+        "failure",
+        "powerplant",
+        "than"
+      ],
+      "SCF-PP": [
+        "related",
+        "aircraft",
+        "malfunction",
+        "system",
+        "component",
+        "failure",
+        "powerplant"
+      ]
+    },
+    "semantic_groups": {
+      "aircraft_systems": [
+        "SCF-NP",
+        "SCF-PP",
+        "FUEL",
+        "F-NI",
+        "F-POST"
+      ],
+      "flight_control": [
+        "LOC-I",
+        "LOC-G",
+        "AMAN",
+        "UIMC",
+        "CFIT"
+      ],
+      "environmental": [
+        "TURB",
+        "ICE",
+        "WSTRW",
+        "BIRD",
+        "WILD"
+      ],
+      "ground_operations": [
+        "GCOL",
+        "RAMP",
+        "RI",
+        "RI-O",
+        "RI-VA",
+        "RE",
+        "ARC",
+        "USOS"
+      ],
+      "airspace": [
+        "MAC",
+        "ATM",
+        "LALT"
+      ],
+      "safety_emergency": [
+        "EVAC",
+        "EXTL",
+        "SEC"
+      ]
+    },
+    "confidence_terms": {
+      "high_confidence": [
+        "stall",
+        "fire",
+        "smoke",
+        "engine failure",
+        "gear failure",
+        "bird strike",
+        "turbulence",
+        "icing",
+        "windshear",
+        "evacuation",
+        "hydraulic",
+        "electrical",
+        "fuel",
+        "collision",
+        "separation"
+      ],
+      "medium_confidence": [
+        "malfunction",
+        "problem",
+        "issue",
+        "error",
+        "deviation",
+        "incursion",
+        "excursion",
+        "overshoot",
+        "undershoot",
+        "contact",
+        "abnormal",
+        "unintended",
+        "encounter",
+        "loss",
+        "failure"
+      ]
+    }
+  }
+}

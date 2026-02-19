@@ -1,0 +1,174 @@
+row_id,original_category,event_string,predicted_code,predicted_name,confidence
+0,OTHER,Phase: departure climb out. Actor: Captain. Trigger: airborne conflict with a UAS. System: UAS.,TURB,Turbulence encounter,0.4512444734573364
+1,OTHER,Phase: low level. Actor: Pilot. Trigger: a helicopter. System: helicopter. Outcome: NMAC.,LOC-I,Loss of control - inflight,0.4059813618659973
+2,OTHER,Phase: glide. Actor: First Officer. Trigger: selecting Level Change mode. Outcome: descending below the glide slope.,LOC-I,Loss of control - inflight,0.34123656153678894
+3,OTHER,"Phase: descent below glidepath on initial approach. Actor: Ground, Crew. Trigger: incorrect altimeter setting. System: altimeter setting. Outcome: Ground Proximity Warning.",LOC-G,Loss of control - ground,0.4454326033592224
+4,OTHER,Phase: final approach for landing they had a near midair. Actor: Pilot. Trigger: near midair collision with another aircraft. Outcome: final approach for landing.,CFIT,"Inflight collision or near collision with terrain, water, or obstacle without indication of loss of control",0.43657341599464417
+5,OTHER,"Actor: ATC, Pilot. Trigger: did not follow the assigned obstacle departure procedure. Outcome: ATC providing vectors to provide obstacle clearance.",UIMC,Unintended flight in IMC,0.45305758714675903
+6,OTHER,Phase: night. Actor: Pilot. Trigger: CFTT incident. Outcome: CFTT incident.,UIMC,Unintended flight in IMC,0.41015714406967163
+7,OTHER,"Phase: descending. Actor: ATC, Controller. Trigger: descending an aircraft below the MVA. Outcome: the Controller issuing an immediate turn to avoid the terrain.",AMAN,Abrupt maneuvre,0.5147608518600464
+8,OTHER,"Phase: VFR. Actor: Tower, Instructor. Trigger: an enroute VFR aircraft which was not communicating with Tower. System: VFR aircraft. Outcome: NMAC.",UIMC,Unintended flight in IMC,0.48693567514419556
+9,OTHER,Phase: final approach. Actor: Pilot. Trigger: helicopter traffic. Outcome: pilot receiving an TA and reducing their descent rate to avoid the traffic.,LOC-I,Loss of control - inflight,0.44897589087486267
+10,OTHER,"Phase: approach. Actor: ATC, Crew, Captain. Trigger: low altitude alert. Outcome: Flight crew leveled off then continued approach.",AMAN,Abrupt maneuvre,0.42917853593826294
+11,OTHER,"Phase: takeoff roll. Actor: ATC, Captain. Trigger: an aggressive sounding call. Outcome: rejected takeoff.",AMAN,Abrupt maneuvre,0.39675450325012207
+12,OTHER,"Actor: Controller, Tower. Trigger: evacuation.",CABIN,Cabin safety events,0.38532719016075134
+13,OTHER,Phase: international airspace. Actor: ATC. Outcome: the flight resumed contact with ATC.,UIMC,Unintended flight in IMC,0.44862568378448486
+14,OTHER,Phase: light. Actor: Crew. Trigger: a light aircraft that apparently was not equipped with ADS-B. System: ADS-B. Outcome: NMAC.,MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.3828897476196289
+15,OTHER,"Phase: approach. Actor: ATC, First Officer, Crew. Trigger: First Officer descended below assigned altitude. Outcome: low altitude alert.",UIMC,Unintended flight in IMC,0.4143487513065338
+16,OTHER,Phase: final approach. Actor: Instructor. Trigger: an aircraft on base leg for the same runway. Outcome: a NMAC with an aircraft on base leg for the same runway.,RI,"Runway incursion - vehicle, aircraft or person",0.4056133031845093
+17,OTHER,"Phase: final approach. Actor: Crew, Tower. Trigger: low altitude alert. Outcome: final approach.",MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.36071091890335083
+18,OTHER,Phase: initial climb. Actor: Pilot. Trigger: airborne conflict with a UAS. System: UAS.,WSTRW,Windshear or thunderstorm.,0.46171388030052185
+19,OTHER,"Phase: final approach. Actor: First Officer, Captain. System: UAS. Outcome: the flight continued without incident.",UIMC,Unintended flight in IMC,0.39200636744499207
+20,OTHER,Phase: takeoff. Outcome: an NMAC requiring evasive action.,AMAN,Abrupt maneuvre,0.30288150906562805
+21,OTHER,Phase: approach. Actor: Controller. Trigger: an aircraft on approach overshot a crossing restriction. Outcome: descended below the Minimum Vectoring Altitude.,WSTRW,Windshear or thunderstorm.,0.473965048789978
+22,OTHER,"Phase: visual approach. Actor: ATC, Crew. Trigger: ATC loss of separation. System: ATC. Outcome: returned to land.",UIMC,Unintended flight in IMC,0.4465336203575134
+23,OTHER,Phase: TFR. Actor: Pilot. Trigger: without authorization. System: UAS.,UIMC,Unintended flight in IMC,0.29589390754699707
+24,OTHER,"Phase: takeoff. Actor: Student, Instructor.",UIMC,Unintended flight in IMC,0.31066977977752686
+25,OTHER,Phase: Approach. Actor: Instructor. Trigger: a helicopter. System: helicopter. Outcome: overtook them.,LOC-I,Loss of control - inflight,0.3843613862991333
+26,OTHER,Phase: short final. Actor: Instructor. Trigger: near mid air collision. Outcome: going around.,TURB,Turbulence encounter,0.41487929224967957
+27,OTHER,Phase: controlled airspace. Trigger: a UAS was flown in controlled airspace without authorization. System: UAS.,AMAN,Abrupt maneuvre,0.40090927481651306
+28,OTHER,"Phase: approach. Actor: Controller, Pilot, Tower. Trigger: CFTT event. System: lost situational awareness. Outcome: CFTT event.",LOC-I,Loss of control - inflight,0.4427412152290344
+29,OTHER,Phase: hard landing. Actor: Maintenance. Trigger: aircraft made a hard landing. Outcome: injury and maintenance inspection.,ARC,Abnormal runway contact,0.4995947778224945
+30,OTHER,Phase: controlled airspace. Actor: Pilot. System: UAS.,MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.40563511848449707
+31,OTHER,Actor: Pilot. Trigger: flying in a restricted area without authorization. System: UAS.,UIMC,Unintended flight in IMC,0.378190279006958
+32,OTHER,"Phase: go-around. Actor: First Officer, Pilot, Captain. Trigger: conflicting traffic. System: TCAS. Outcome: The Captain; who was the pilot flying; decided to continue the approach.",TURB,Turbulence encounter,0.3741273283958435
+33,OTHER,Phase: cruise. Actor: Pilot. Trigger: an aircraft that was making 360 degree turns in their vicinity. Outcome: NMAC.,UIMC,Unintended flight in IMC,0.38780438899993896
+34,OTHER,Phase: final approach. Actor: Captain. System: UAS. Outcome: the flight continued without further incident.,TURB,Turbulence encounter,0.40034860372543335
+35,OTHER,Phase: recovery. Actor: Pilot. Trigger: GPS interference. System: GPS. Outcome: recovery.,ATM,"Occurrences involving Air traffic management or communications, navigation, or surveillance service issues",0.3842547535896301
+36,OTHER,Phase: traffic pattern. Actor: Pilot. Trigger: NMAC in the traffic pattern. Outcome: NMAC.,ATM,"Occurrences involving Air traffic management or communications, navigation, or surveillance service issues",0.4075515568256378
+37,OTHER,"Actor: ATC, Ground, Controller. Trigger: understaffing.",LOC-G,Loss of control - ground,0.38260000944137573
+38,OTHER,Phase: landing. Trigger: conflict with his departure.,RE,Runway excursion,0.42543140053749084
+39,OTHER,Phase: below the minimum vectoring altitude. Actor: Controller. Trigger: misread the flight strip of a departing aircraft. Outcome: flying below the minimum vectoring altitude.,LOC-I,Loss of control - inflight,0.5092002749443054
+40,OTHER,"Phase: descent. Actor: Crew, Tower. System: TCAS. Outcome: Go-around.",LOC-I,Loss of control - inflight,0.302822470664978
+41,OTHER,Phase: final approach. Actor: Crew. Trigger: a helicopter flying beneath them. System: TCAS RA. Outcome: a helicopter flying beneath them.,MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.3838587701320648
+42,OTHER,"Phase: Approach, Final Approach. Actor: Captain. Trigger: unshielded ramp lighting. Outcome: final approach.",TURB,Turbulence encounter,0.33325886726379395
+43,OTHER,"Phase: departure. Actor: Tower, Instructor. Trigger: after the tower had closed for the day. System: NMAC. Outcome: an NMAC.",UIMC,Unintended flight in IMC,0.32218748331069946
+44,OTHER,Phase: descended below published altitude. Actor: Controller. Trigger: CFTT event. Outcome: low altitude alert and a CFTT event.,LOC-I,Loss of control - inflight,0.49199187755584717
+45,OTHER,Phase: Approach. Actor: First Officer. System: GPWS.,WSTRW,Windshear or thunderstorm.,0.2914009094238281
+46,OTHER,Phase: short final. Actor: First Officer. Trigger: low altitude alert. Outcome: landing safely.,LOC-I,Loss of control - inflight,0.4471041262149811
+47,OTHER,"Phase: Approach. Actor: ATC, Captain. Trigger: miscommunication with ATC. System: miscommunication with ATC.",AMAN,Abrupt maneuvre,0.4093082845211029
+48,OTHER,Phase: approach. Actor: Controller. Trigger: aircraft descended below assigned altitude. Outcome: low altitude alert and a CFTT event.,LOC-I,Loss of control - inflight,0.5466878414154053
+49,OTHER,Phase: traffic pattern. Actor: Instructor. Trigger: near mid air collision with departing aircraft. Outcome: near mid air collision.,MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.5159944891929626
+50,OTHER,Phase: Part 107. Actor: Pilot. System: UAS. Outcome: The pilot immediately exited the controlled airspace.,UIMC,Unintended flight in IMC,0.4174222946166992
+51,OTHER,"Phase: midair. Actor: Pilot. Trigger: near midair collision with a jet aircraft. Outcome: Go-around, Collision.",CFIT,"Inflight collision or near collision with terrain, water, or obstacle without indication of loss of control",0.4929037094116211
+52,OTHER,Phase: final approach. Actor: Pilot. Trigger: the turn-off lights. Outcome: final approach to JAX.,TURB,Turbulence encounter,0.2841964066028595
+53,OTHER,"Phase: VFR. Actor: Tower, Instructor. Trigger: two NMAC's. System: NMAC's. Outcome: NMAC.",UIMC,Unintended flight in IMC,0.31367027759552
+54,OTHER,"Phase: low altitude. Actor: Controller, Crew. System: TRACON Controller.",LOC-I,Loss of control - inflight,0.41603517532348633
+55,OTHER,Phase: Light. Actor: Pilot. Trigger: NMAC. Outcome: NMAC.,UIMC,Unintended flight in IMC,0.3344387114048004
+56,OTHER,Phase: landing roll-out. Actor: Instructor. Trigger: a small jet. Outcome: a small jet did a go-around overflying the instructor's aircraft.,LOC-I,Loss of control - inflight,0.4599481225013733
+57,OTHER,Phase: Low wing. Actor: Instructor. Trigger: NMAC event. System: Low wing aircraft. Outcome: NMAC event.,AMAN,Abrupt maneuvre,0.41597914695739746
+58,OTHER,"Phase: landing. Actor: ATC, Pilot, Captain. Trigger: low altitude warning from ATC during an unstable approach in visual conditions. Outcome: returned for a landing.",UIMC,Unintended flight in IMC,0.5344049334526062
+59,OTHER,Phase: pattern. Actor: Instructor. Trigger: another aircraft was not allowing for spacing. System: another aircraft was not allowing for spacing. Outcome: the flight instructor taking evasive action to avoid a collision with the other aircraft.,AMAN,Abrupt maneuvre,0.4389616847038269
+60,OTHER,Actor: Controller. Trigger: lack of sufficient radio coverage. System: Radio.,LOC-G,Loss of control - ground,0.3494049608707428
+61,OTHER,"Phase: final approach. Actor: ATC, Captain. Trigger: Conflict, Traffic. Outcome: the aircraft on the runway rejected their takeoff.",AMAN,Abrupt maneuvre,0.4417642056941986
+62,OTHER,"Phase: final approach. Actor: ATC, Pilot. Outcome: final approach.",UIMC,Unintended flight in IMC,0.3640281558036804
+63,OTHER,Actor: Controller.,LOC-G,Loss of control - ground,0.29713794589042664
+64,OTHER,"Phase: training. Actor: ATC, Instructor. Outcome: Go-around, Near Miss.",UIMC,Unintended flight in IMC,0.3550626039505005
+65,OTHER,Phase: descended. Actor: Instructor.,UIMC,Unintended flight in IMC,0.29629242420196533
+66,OTHER,"Actor: ATC, Controller, Tower. Trigger: the Tower not following procedures. System: Tower.",LOC-G,Loss of control - ground,0.28532674908638
+67,OTHER,Phase: final approach. Actor: Captain. Trigger: airborne conflict. System: UAS. Outcome: No evasive action was taken.,AMAN,Abrupt maneuvre,0.4657633304595947
+68,OTHER,Phase: takeoff. Actor: Crew. Trigger: traffic conflict. System: TCAS. Outcome: turned on course.,TURB,Turbulence encounter,0.3950190246105194
+69,OTHER,Phase: erratically. Actor: Pilot. Trigger: other aircraft flying erratically. Outcome: final approach.,TURB,Turbulence encounter,0.5194215178489685
+70,OTHER,Phase: final approach. Actor: Crew. Trigger: a UAS or balloon. System: UAS. Outcome: No evasive action was taken.,AMAN,Abrupt maneuvre,0.4126355051994324
+71,OTHER,"Phase: Landing, Go-around. Actor: Crew. Trigger: GPWS terrain warning. System: GPWS. Outcome: returned for a normal landing.",WSTRW,Windshear or thunderstorm.,0.48484498262405396
+72,OTHER,"Phase: landing. Actor: Student, Pilot. Trigger: momentary loss of control. System: C172.",LOC-G,Loss of control - ground,0.49721866846084595
+73,OTHER,"Phase: Class C. Actor: ATC, Captain. Trigger: Traffic. System: TCAS.",MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.30411407351493835
+74,OTHER,Phase: final approach. Actor: Pilot. Trigger: TCAS RA. System: TCAS. Outcome: TCAS RA.,MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.3372637629508972
+75,OTHER,"Phase: ground reference maneuvers. Actor: Ground, Pilot. Trigger: Traffic. Outcome: NMAC.",AMAN,Abrupt maneuvre,0.4415243864059448
+76,OTHER,Phase: final approach. Outcome: performed a go-around.,TURB,Turbulence encounter,0.24422413110733032
+77,OTHER,Phase: converging. Actor: Instructor. Trigger: NMAC event. Outcome: taking immediate evasive action and a NMAC event.,AMAN,Abrupt maneuvre,0.40046289563179016
+78,OTHER,Phase: Departure. Actor: Controller.,LOC-I,Loss of control - inflight,0.3930675685405731
+79,OTHER,Actor: Controller. Trigger: NMAC with another aircraft. Outcome: NMAC with another aircraft.,MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.38831397891044617
+80,OTHER,Phase: Approach. Actor: Captain. Trigger: hot air balloons. System: hot air balloons. Outcome: near miss.,MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.4005412459373474
+81,OTHER,"Phase: final. Actor: Student, Pilot. System: wrong aircraft. Outcome: a NMAC.",UIMC,Unintended flight in IMC,0.40117764472961426
+82,OTHER,Phase: final. Actor: Pilot. Trigger: an aircraft turned onto final from a base leg in front of them. Outcome: NMAC.,UIMC,Unintended flight in IMC,0.4050212502479553
+83,OTHER,"Phase: night. Actor: First Officer, ATC. Trigger: a night visual approach being high and fast. Outcome: overshooting the final approach course.",UIMC,Unintended flight in IMC,0.389822781085968
+84,OTHER,Phase: approach. Actor: Crew. Trigger: NMAC with a UAS. System: UAS. Outcome: No evasive action was taken.,AMAN,Abrupt maneuvre,0.40094390511512756
+85,OTHER,Actor: Pilot. Trigger: exceeding authorized altitude. System: UAS. Outcome: exceeding authorized altitude.,AMAN,Abrupt maneuvre,0.3953346610069275
+86,OTHER,"Phase: descended below their assigned altitude. Actor: ATC, Pilot. Trigger: descended below their assigned altitude. Outcome: descended below their assigned altitude.",UIMC,Unintended flight in IMC,0.4502381682395935
+87,OTHER,"Phase: cruise. Actor: Student, Pilot, Instructor. System: UAS. Outcome: Collision, NMAC.",UIMC,Unintended flight in IMC,0.3917023539543152
+88,OTHER,Phase: final. Actor: Instructor. Trigger: another aircraft turned from base leg to final in front of them. Outcome: another aircraft turned from base leg to final.,UIMC,Unintended flight in IMC,0.34178316593170166
+89,OTHER,"Phase: VFR general aviation. Actor: ATC, Captain. Trigger: Traffic. System: VFR general aviation aircraft.",UIMC,Unintended flight in IMC,0.45548856258392334
+90,OTHER,"Phase: pilot flying. Actor: Pilot, Captain. Trigger: pilot flying failed to flare properly. System: pilot flying failed to flare properly. Outcome: hard landing.",TURB,Turbulence encounter,0.4733618497848511
+91,OTHER,Phase: night. Actor: Pilot. Trigger: near miss with a helicopter. System: helicopter. Outcome: Near Miss.,LOC-I,Loss of control - inflight,0.42234164476394653
+92,OTHER,"Phase: training. Actor: Student, Instructor. Trigger: descending below minimum altitude. Outcome: descending below minimum altitude.",LOC-I,Loss of control - inflight,0.4228694438934326
+93,OTHER,Phase: landed. Actor: Pilot. Trigger: NMAC. Outcome: NMAC.,UIMC,Unintended flight in IMC,0.39791935682296753
+94,OTHER,"Phase: VFR. Actor: First Officer, ATC. Outcome: lower.",UIMC,Unintended flight in IMC,0.41413769125938416
+95,OTHER,"Phase: Corporate. Actor: ATC, Pilot. Trigger: descending below their assigned altitude. Outcome: descending below their assigned altitude.",LOC-I,Loss of control - inflight,0.4463382065296173
+96,OTHER,Phase: descended below the Minimum Enroute Altitude. Actor: Controller. Trigger: they missed an erroneous altitude read back. Outcome: descended below the Minimum Enroute Altitude.,LOC-I,Loss of control - inflight,0.4678177237510681
+97,OTHER,"Phase: practice approach. Actor: ATC, Instructor. Trigger: ATC advised them of traffic. Outcome: ATC then issuing an immediate climb.",AMAN,Abrupt maneuvre,0.33317136764526367
+98,OTHER,Actor: Pilot. Outcome: NMAC.,UIMC,Unintended flight in IMC,0.3893223702907562
+99,OTHER,Phase: on approach. Actor: Captain. Trigger: a balloon.,WSTRW,Windshear or thunderstorm.,0.25723767280578613
+100,OTHER,"Phase: 8 miles off course. Actor: ATC, First Officer, Crew. Trigger: Mistake. System: KP12E and KP21E. Outcome: flew approximately 8 miles off course before being corrected by ATC.",UIMC,Unintended flight in IMC,0.3608331084251404
+101,OTHER,Phase: cruise. Actor: Captain. Trigger: an NMAC with a UAS. System: UAS. Outcome: No evasive action was taken.,AMAN,Abrupt maneuvre,0.39757296442985535
+102,OTHER,Phase: Approach. Actor: Instructor. Outcome: discontinued its approach.,UIMC,Unintended flight in IMC,0.26040178537368774
+103,OTHER,"Phase: Class D. Actor: UH-60 helicopter. Trigger: non communicating UH-60 helicopter. System: UH-60 helicopter. Outcome: Collision, NMAC.",MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.3704153299331665
+104,OTHER,Phase: Approach. Actor: Pilot. System: ASOS. Outcome: ZAB Center is unable to issue the approach.,AMAN,Abrupt maneuvre,0.33167359232902527
+105,OTHER,Phase: NMAC. Actor: helicopter. Trigger: a helicopter passed close by. System: J3 Cub. Outcome: an NMAC.,LOC-I,Loss of control - inflight,0.34458351135253906
+106,OTHER,"Phase: initial approach. Actor: ATC, Pilot. Trigger: ATC issued a low altitude alert. System: B737-800. Outcome: unstable approach and go-around.",AMAN,Abrupt maneuvre,0.42663106322288513
+107,OTHER,"Actor: Pilot. Trigger: an aircraft that turned in front of them. Outcome: Collision, NMAC.",WSTRW,Windshear or thunderstorm.,0.4358161389827728
+108,OTHER,Phase: cruise flight. Actor: Pilot. Trigger: airborne conflict with a UAS. System: UAS. Outcome: No evasive action was taken.,AMAN,Abrupt maneuvre,0.5090312361717224
+109,OTHER,"Phase: departure. Actor: Controller, Crew. Trigger: Traffic.",TURB,Turbulence encounter,0.3850867450237274
+110,OTHER,"Phase: landing. Actor: ATC, Crew, Captain. Trigger: selecting an improper altimeter setting. System: altimeter setting.",UIMC,Unintended flight in IMC,0.38991254568099976
+111,OTHER,"Phase: Landing, Approach, Final Approach. Actor: ATC, Crew, Captain.",UIMC,Unintended flight in IMC,0.3761887550354004
+112,OTHER,Phase: Landing. Actor: Pilot. Trigger: a helicopter. System: helicopter. Outcome: near miss with a helicopter.,LOC-I,Loss of control - inflight,0.47777050733566284
+113,OTHER,Phase: approach. Actor: Crew. Trigger: an RA. Outcome: an RA.,TURB,Turbulence encounter,0.3385620415210724
+114,OTHER,Phase: GPS-A. Actor: Pilot. Trigger: N90 TRACON reluctance to clear aircraft. System: N90 TRACON.,LOC-I,Loss of control - inflight,0.34003838896751404
+115,OTHER,"Phase: cruise. Actor: Pilot. Trigger: near miss during cruise. Outcome: Near Miss, Collision.",TURB,Turbulence encounter,0.44582244753837585
+116,OTHER,"Phase: pattern. Actor: ATC, Pilot. Trigger: Traffic. Outcome: successfully went around.",AMAN,Abrupt maneuvre,0.43354958295822144
+117,OTHER,"Phase: final approach. Actor: ATC, Crew. Trigger: traffic conflict. Outcome: an ATC-directed go around.",AMAN,Abrupt maneuvre,0.4010012447834015
+118,OTHER,Phase: final approach stage. Actor: Captain. Trigger: final approach stage. Outcome: final approach stage.,WSTRW,Windshear or thunderstorm.,0.2895817160606384
+119,OTHER,Phase: descended below its assigned altitude and flew below the Minimum IFR Altitude. Actor: Controller. Trigger: an aircraft descended below its assigned altitude. Outcome: descended below its assigned altitude and flew below the Minimum IFR Altitude.,LOC-I,Loss of control - inflight,0.4649122953414917
+120,OTHER,"Phase: landing. Actor: Pilot, Captain. Trigger: CG being too far forward. Outcome: firm touchdown.",LOC-I,Loss of control - inflight,0.4001830220222473
+121,OTHER,"Phase: initial climb out. Actor: Student, Pilot. Trigger: NMAC. System: NMAC. Outcome: NMAC.",AMAN,Abrupt maneuvre,0.3168577551841736
+122,OTHER,Phase: final approach below 500 AFE. Actor: Captain. Trigger: Conflict. Outcome: a go-around.,AMAN,Abrupt maneuvre,0.268757700920105
+123,OTHER,"Phase: RNAV approach glide path. Actor: Crew, Captain. Trigger: the aircraft was relatively high on the PAPIs.",WSTRW,Windshear or thunderstorm.,0.3940555453300476
+124,OTHER,Phase: flying above 400 feet AGL. System: UAS.,LOC-I,Loss of control - inflight,0.40893301367759705
+125,OTHER,Phase: VFR. Actor: Controller.,UIMC,Unintended flight in IMC,0.3605606257915497
+126,OTHER,Phase: approach. Actor: Controller.,LOC-I,Loss of control - inflight,0.2556866705417633
+127,OTHER,Phase: toward terrain. Actor: Pilot. Trigger: flight toward terrain.,WSTRW,Windshear or thunderstorm.,0.4551661014556885
+128,OTHER,Phase: landing. Actor: Instructor. Trigger: NMAC event. Outcome: avoided a collision.,AMAN,Abrupt maneuvre,0.47350263595581055
+129,OTHER,Phase: Minimum Vectoring Altitude. Actor: Controller. Outcome: one of them flying below the Minimum Vectoring Altitude.,LOC-I,Loss of control - inflight,0.456256240606308
+130,OTHER,"Phase: traffic pattern. Actor: ATC, Instructor. Trigger: NMAC event. Outcome: NMAC event.",AMAN,Abrupt maneuvre,0.41251140832901
+131,OTHER,"Phase: CFTT. Actor: Student, Instructor. Trigger: while performing eights on pylons maneuvers. System: CFTT. Outcome: eights.",TURB,Turbulence encounter,0.3677128851413727
+132,OTHER,"Phase: final approach that was a visual straight-in. Actor: ATC, Crew, Captain. Outcome: visual straight-in.",UIMC,Unintended flight in IMC,0.38019871711730957
+133,OTHER,"Phase: training. Actor: Student, Instructor. Trigger: a helicopter. System: helicopter. Outcome: Near Miss.",LOC-I,Loss of control - inflight,0.4289471507072449
+134,OTHER,Phase: Minimum Vectoring Altitude. Actor: Controller.,LOC-I,Loss of control - inflight,0.3778765797615051
+135,OTHER,Phase: CFTT. Actor: Crew. Trigger: CFTT event. Outcome: CFTT.,UIMC,Unintended flight in IMC,0.32311779260635376
+136,OTHER,Phase: CFTT. Actor: Captain. Trigger: CFTT event. Outcome: CFTT.,UIMC,Unintended flight in IMC,0.31292134523391724
+137,OTHER,"Phase: approach. Actor: ATC, Crew. Trigger: descended below the published minimums. Outcome: low altitude alert from ATC. Flight crew corrected and continued to landing.",LOC-I,Loss of control - inflight,0.44304603338241577
+138,OTHER,Phase: Taxi. Actor: Captain. Trigger: taxi chart discrepancy.,RI,"Runway incursion - vehicle, aircraft or person",0.21715696156024933
+139,OTHER,Trigger: a flight not equipped with ozone converters. System: ozone converters.,MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.4320794641971588
+140,OTHER,Phase: descending on approach. Actor: Crew. Outcome: being below glidepath and a Caution Obstacle alert.,TURB,Turbulence encounter,0.42857348918914795
+141,OTHER,"Phase: single engine approach circle. Actor: Pilot, Tower. Trigger: an aircraft loss of control. System: PA-44. Outcome: landed without a landing clearance from the tower.",LOC-I,Loss of control - inflight,0.4909924268722534
+142,OTHER,"Phase: departure. Actor: ATC, Pilot, Captain. Trigger: excessive bank angle. Outcome: continued the flight.",UIMC,Unintended flight in IMC,0.47848016023635864
+143,OTHER,Phase: descended. Actor: First Officer.,UIMC,Unintended flight in IMC,0.3095121383666992
+144,OTHER,Phase: cruise. Actor: Pilot. Trigger: CFTT event. System: aircraft control. Outcome: temporary loss of aircraft control and a CFTT event.,LOC-I,Loss of control - inflight,0.5272489190101624
+145,OTHER,Phase: cruise. Actor: ATC. System: Radio.,UIMC,Unintended flight in IMC,0.3251534700393677
+146,OTHER,Phase: vectoring altitude. Actor: ATC. Outcome: below the minimum vectoring altitude.,LOC-I,Loss of control - inflight,0.3807429075241089
+147,OTHER,"Actor: ATC, Crew. System: ATC.",UIMC,Unintended flight in IMC,0.300686240196228
+148,OTHER,"Phase: descending rapidly. Actor: Controller, Tower. Trigger: aircraft descending rapidly and being issued a low altitude alert. Outcome: aircraft descending rapidly and being issued a low altitude alert.",LOC-I,Loss of control - inflight,0.4429547190666199
+149,OTHER,"Phase: final approach. Actor: ATC, Captain. Trigger: low altitude alert. Outcome: final approach.",AMAN,Abrupt maneuvre,0.412092387676239
+150,OTHER,"Phase: final approach. Actor: ATC, Crew, Pilot. Trigger: an aircraft flying near the final approach area and not in communication with ATC. System: TCAS. Outcome: Air taxi flight crew was vectored back for approach and landed.",AMAN,Abrupt maneuvre,0.39803531765937805
+151,OTHER,Phase: altitude. Actor: First Officer. Trigger: altitude overshoot. System: CRJ-700. Outcome: GPWS alert and a CFTT event.,TURB,Turbulence encounter,0.41691136360168457
+152,OTHER,"Phase: Climb. Actor: Controller, Pilot. Trigger: C172 was not able to climb to altitude. System: C172. Outcome: MVA met.",LOC-G,Loss of control - ground,0.3773343563079834
+153,OTHER,Phase: practice approach. Actor: Pilot. Trigger: another aircraft reported that they flew right over them. Outcome: Collision.,WSTRW,Windshear or thunderstorm.,0.44733497500419617
+154,OTHER,Phase: VFR. Actor: Captain. Outcome: NMAC.,UIMC,Unintended flight in IMC,0.36210644245147705
+155,OTHER,Phase: late. Actor: Crew. Trigger: they turned base early. Outcome: unstabilized approach and late aircraft configuration.,WSTRW,Windshear or thunderstorm.,0.4065418541431427
+156,OTHER,Phase: Approach. Actor: Crew. Outcome: descended.,UIMC,Unintended flight in IMC,0.29864799976348877
+157,OTHER,Actor: First Officer. Trigger: unmanifested DG had been loaded onboard. System: DG. Outcome: The flight landed normally at destination.,UIMC,Unintended flight in IMC,0.3670838177204132
+158,OTHER,"Phase: takeoff. Actor: Tower, Instructor. Trigger: Conflict, Traffic. Outcome: Near Miss.",TURB,Turbulence encounter,0.3949025273323059
+159,OTHER,Phase: below the Minimum Vectoring Altitude. Actor: Controller. Trigger: an aircraft deviated from the SID. Outcome: flew below the Minimum Vectoring Altitude.,LOC-I,Loss of control - inflight,0.4787185788154602
+160,OTHER,Actor: Captain.,UIMC,Unintended flight in IMC,0.1490744948387146
+161,OTHER,System: UAS.,SCF-NP,Failure or malfunction of an aircraft system or component - other than powerplant,0.325050950050354
+162,OTHER,Phase: departing. Actor: Controller. Outcome: flew below the Minimum IFR Altitude.,LOC-I,Loss of control - inflight,0.4866182208061218
+163,OTHER,Phase: B767. Actor: Crew. Trigger: lightning strike followed by multiple electrical malfunctions and electrical burning smells. System: B767. Outcome: a diversion.,SCF-NP,Failure or malfunction of an aircraft system or component - other than powerplant,0.34423112869262695
+164,OTHER,"Phase: initial climb from a non-towered airport reported a NMAC. Actor: Student, Pilot. Trigger: a helicopter flying through the pattern not communicating on CTAF. System: helicopter. Outcome: NMAC.",UIMC,Unintended flight in IMC,0.4068355858325958
+165,OTHER,Actor: Pilot. Trigger: airborne conflict with a helicopter. System: UAS. Outcome: The UAS avoided the helicopter.,WSTRW,Windshear or thunderstorm.,0.4307451844215393
+166,OTHER,"Phase: approach. Actor: Crew, Captain. Trigger: being below glidepath and using the wrong altimeter setting. Outcome: returned to land.",WSTRW,Windshear or thunderstorm.,0.40409719944000244
+167,OTHER,Phase: controlled airspace. Actor: Pilot. System: UAS.,MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.40563511848449707
+168,OTHER,Actor: Captain. Trigger: a helicopter. Outcome: NMAC.,UIMC,Unintended flight in IMC,0.29438936710357666
+169,OTHER,Phase: Light. Actor: Pilot. System: ADSB Out. Outcome: NMAC.,MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.31125879287719727
+170,OTHER,"Actor: ATC, Crew. Trigger: Traffic. Outcome: the flight crew taking evasive action to avoid a collision with the other aircraft.",AMAN,Abrupt maneuvre,0.4785672426223755
+171,OTHER,Phase: initial climb. Actor: Pilot. Trigger: air carrier. System: air carrier. Outcome: departed an intersecting runway.,RI,"Runway incursion - vehicle, aircraft or person",0.5182529091835022
+172,OTHER,"Phase: mid air. Actor: ATC, Pilot. Trigger: near mid air collision with another aircraft. Outcome: Collision.",MAC,"Airprox, ACAS alerts, loss of separation, near collisions between aircraft",0.5319471955299377

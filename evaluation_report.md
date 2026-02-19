@@ -1,30 +1,30 @@
-# Evaluation Report: Refined Event Classification
+# Evaluation Report: Final Refinement (Thresh=0.4)
 
 ## Overview
 - **Total Reports**: 173
-- **Refinement Strategy**: Acronym Expansion + Hybrid Rules + Threshold (0.45)
-- **Original "OTHER"**: 173
-- **Successfully Reclassified**: 61 (35.3%)
-- **Unclassified (Low Confidence)**: 112
+- **Strategy**: Acronyms (incl. TCAS/RA) + UUIDs + Thresh 0.4
+- **Reclassified "OTHER"**: 117 (67.6%)
+- **Unclassified (UNK)**: 56 (Reduced from ~112)
+- **MAC Detected**: 18
 
 ## Comparison by Method
 | Method | Count | Avg Confidence |
 |---|---|---|
 | Rule (Hybrid) | 0 | 1.00 |
-| Embedding | 61 | 0.4966 |
-| Low Confidence | 112 | 0.3838 |
+| Embedding | 117 | 0.4653 |
+| Low Confidence | 56 | 0.3412 |
 
 ## Top High-Confidence Reclassifications
-
-### Row 172 (Embedding)
-- **Event**: `Phase: mid air. Actor: ATC, Pilot. Trigger: near mid air collision with another aircraft. Outcome: Collision.`
-- **Predicted**: **MAC** (Airprox, ACAS alerts, loss of separation, near collisions between aircraft)
-- **Confidence**: 0.5597
 
 ### Row 130 (Embedding)
 - **Event**: `Phase: traffic pattern. Actor: ATC, Instructor. Trigger: Near Mid Air Collision event. Outcome: Near Mid Air Collision event.`
 - **Predicted**: **MAC** (Airprox, ACAS alerts, loss of separation, near collisions between aircraft)
-- **Confidence**: 0.5589
+- **Confidence**: 0.5555
+
+### Row 172 (Embedding)
+- **Event**: `Phase: mid air. Actor: ATC, Pilot. Trigger: near mid air collision with another aircraft. Outcome: Collision.`
+- **Predicted**: **MAC** (Airprox, ACAS alerts, loss of separation, near collisions between aircraft)
+- **Confidence**: 0.5530
 
 ### Row 128 (Embedding)
 - **Event**: `Phase: landing. Actor: Instructor. Trigger: Near Mid Air Collision event. Outcome: avoided a collision.`
@@ -34,12 +34,12 @@
 ### Row 49 (Embedding)
 - **Event**: `Phase: traffic pattern. Actor: Instructor. Trigger: near mid air collision with departing aircraft. Outcome: near mid air collision.`
 - **Predicted**: **MAC** (Airprox, ACAS alerts, loss of separation, near collisions between aircraft)
-- **Confidence**: 0.5477
+- **Confidence**: 0.5445
 
 ### Row 36 (Embedding)
 - **Event**: `Phase: traffic pattern. Actor: Pilot. Trigger: Near Mid Air Collision in the traffic pattern. Outcome: Near Mid Air Collision.`
 - **Predicted**: **MAC** (Airprox, ACAS alerts, loss of separation, near collisions between aircraft)
-- **Confidence**: 0.5374
+- **Confidence**: 0.5351
 
 ### Row 58 (Embedding)
 - **Event**: `Phase: landing. Actor: ATC, Pilot, Captain. Trigger: low altitude warning from ATC during an unstable approach in visual conditions. Outcome: returned for a landing.`

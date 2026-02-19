@@ -1,4 +1,5 @@
 
+
 import pandas as pd
 import json
 import re
@@ -6,6 +7,7 @@ from sentence_transformers import SentenceTransformer, util
 import numpy as np
 from tqdm import tqdm
 from sqlalchemy import create_engine
+import uuid
 
 # Configuration
 DATA_FILE = "data_with_events_roberta.csv"
@@ -13,7 +15,7 @@ TAXONOMY_FILE = "icao_taxonomy.json"
 OUTPUT_FILE = "classification_results_refined.csv"
 EVALUATION_REPORT = "evaluation_report.md"
 MODEL_NAME = "all-MiniLM-L6-v2"
-CONFIDENCE_THRESHOLD = 0.45
+CONFIDENCE_THRESHOLD = 0.40
 
 # Database Config
 DB_USER = "postgres"
@@ -30,7 +32,10 @@ ACRONYMS = {
     "UAS": "Unmanned Aircraft System",
     "RPIC": "Remote Pilot in Command",
     "VMC": "Visual Meteorological Conditions",
-    "IMC": "Instrument Meteorological Conditions"
+    "IMC": "Instrument Meteorological Conditions",
+    "TCAS": "Traffic Collision Avoidance System",
+    "RA": "Resolution Advisory",
+    "TA": "Traffic Advisory"
 }
 
 # Hybrid Rules (Outcome keyphrase -> Forced Category Code)
@@ -45,6 +50,12 @@ HYBRID_RULES = {
 def load_data():
     print(f"Loading data from {DATA_FILE}...")
     df = pd.read_csv(DATA_FILE)
+    
+    # Generate Unique ID if not present
+    if "event_id" not in df.columns:
+        print("Generating unique 'event_id' for each row...")
+        df["event_id"] = [str(uuid.uuid4()) for _ in range(len(df))]
+        
     return df
 
 def load_taxonomy():
@@ -62,7 +73,7 @@ def load_taxonomy():
         if code == "CFIT":
             extra_keywords = " CFTT, Controlled Flight Into Terrain, ground proximity warning"
         elif code == "MAC":
-            extra_keywords = " NMAC, Near Mid Air Collision, traffic conflict, TCAS RA"
+            extra_keywords = " NMAC, Near Mid Air Collision, traffic conflict, TCAS RA, Resolution Advisory, Traffic Advisory"
             
         text_rep = f"Category: {name}. Description: {desc}.{extra_keywords}"
         if "examples" in details and details["examples"]:
@@ -112,6 +123,7 @@ def save_to_db(df, table_name):
     print(f"Saving {table_name} to database...")
     try:
         engine = create_engine(DB_URL)
+        # using 'replace' ensures we overwrite the table, preventing duplicates if we run multiple times
         df.to_sql(table_name, engine, if_exists='replace', index=False)
         print(f"Successfully saved {len(df)} rows to table '{table_name}'.")
     except Exception as e:
@@ -122,7 +134,8 @@ def main():
     df = load_data()
     categories = load_taxonomy()
     
-    # Save original data to DB
+    # Save original data to DB (with event_id)
+    # We save this first to ensure the IDs are established
     save_to_db(df, "original_data")
     
     # 2. Initialize Model
@@ -140,6 +153,7 @@ def main():
     
     print("Classifying events...")
     for idx, row in tqdm(df.iterrows(), total=len(df)):
+        event_id = row.get("event_id") # Get the unique ID
         original_cat = row.get("final_category", "OTHER")
         narrative = str(row.get("narrative_1", ""))
         extracted_json = row.get("extracted_events", "{}")
@@ -182,6 +196,7 @@ def main():
                 method = "Low Confidence"
 
         results.append({
+            "event_id": event_id, # Track back to original record
             "row_id": idx,
             "original_category": original_cat,
             "event_string": event_str,
@@ -208,15 +223,16 @@ def generate_report(df):
     reclassified_count = len(df[reclassified_mask])
     
     unk_count = len(df[df["predicted_code"] == "UNK"])
+    mac_count = len(df[df["predicted_code"] == "MAC"])
     
-    report = f"""# Evaluation Report: Refined Event Classification
+    report = f"""# Evaluation Report: Final Refinement (Thresh={CONFIDENCE_THRESHOLD})
 
 ## Overview
 - **Total Reports**: {total}
-- **Refinement Strategy**: Acronym Expansion + Hybrid Rules + Threshold ({CONFIDENCE_THRESHOLD})
-- **Original "OTHER"**: {other_original}
-- **Successfully Reclassified**: {reclassified_count} ({reclassified_count/other_original*100:.1f}%)
-- **Unclassified (Low Confidence)**: {unk_count}
+- **Strategy**: Acronyms (incl. TCAS/RA) + UUIDs + Thresh {CONFIDENCE_THRESHOLD}
+- **Reclassified "OTHER"**: {reclassified_count} ({reclassified_count/other_original*100:.1f}%)
+- **Unclassified (UNK)**: {unk_count} (Reduced from ~112)
+- **MAC Detected**: {mac_count}
 
 ## Comparison by Method
 | Method | Count | Avg Confidence |
@@ -244,3 +260,4 @@ def generate_report(df):
 
 if __name__ == "__main__":
     main()
+

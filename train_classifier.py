@@ -11,9 +11,11 @@ import numpy as np
 import random
 import os
 from tqdm import tqdm
+from sqlalchemy import create_engine
+
+from config import DB_URL, RESULTS_TABLE, get_raw_conn
 
 # Configuration
-INPUT_FILE = "classification_results_refined.csv"
 MODEL_NAME = "roberta-base"
 MAX_LEN = 128
 BATCH_SIZE = 8
@@ -91,9 +93,13 @@ class AviationDataset(Dataset):
         }
 
 def load_and_prepare_data():
-    print("Loading classification results for pseudo-labeling...")
-    df = pd.read_csv(INPUT_FILE)
-    
+    print(f"Loading classification results from DB table '{RESULTS_TABLE}'...")
+    conn = get_raw_conn()
+    try:
+        df = pd.read_sql(f"SELECT * FROM {RESULTS_TABLE}", conn)
+    finally:
+        conn.close()
+
     # 1. Filter High Confidence Rows (The "Teacher" Labels)
     # We trust 'Rule' completely, and 'Embedding' > 0.40
     # We REJECT 'UNK' and low confidence rows

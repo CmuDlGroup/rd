@@ -1,3 +1,7 @@
+# ── Credentials / local config ───────────────────────────────────────────────
+# Contains database credentials — never commit this file.
+config.py
+
 # ── Large files excluded from version control ──────────────────────────────
 # These files exceed GitHub's size limits and must be obtained separately.
 # See the "Large Files" section in README.md for download instructions.

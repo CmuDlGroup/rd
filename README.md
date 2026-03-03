@@ -300,6 +300,21 @@ The embedding classifier uses an enriched text representation per category: `"Ca
 
 ---
 
+## Large Files (Not in Repository)
+
+The following files exceed GitHub's file size limits and are **not tracked by git** (see `.gitignore`):
+
+| File | Size | Reason |
+|---|---|---|
+| `best_model_roberta.pt` | ~476 MB | Fine-tuned RoBERTa model weights |
+| `eccairs_taxonomy_full.json` | ~98 MB | Full ECCAIRS aviation taxonomy reference |
+
+> **To use these files**, either:
+> - Re-generate `best_model_roberta.pt` by running `python train_classifier.py` (requires the Stage 2 output CSV), or
+> - Obtain them from the project team / shared storage and place them in the project root directory.
+
+---
+
 ## Results
 
 The pipeline produces a structured evaluation report (`evaluation_report.md`) automatically after each Stage 2 run. Key metrics tracked:

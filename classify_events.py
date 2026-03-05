@@ -164,13 +164,49 @@ def construct_event_string(row):
 
 
 def save_to_db(df, table_name):
+    """
+    Write DataFrame to PostgreSQL using raw psycopg2.
+    Uses DROP + CREATE + COPY for reliability with pandas 3.x + SQLAlchemy 1.4.
+    """
+    import io
     print(f"Saving {len(df):,} rows to table '{table_name}'...")
+    conn = get_raw_conn()
     try:
-        engine = create_engine(DB_URL)
-        df.to_sql(table_name, engine, if_exists="replace", index=False)
-        print(f"  Done.")
+        cur = conn.cursor()
+
+        # Build column DDL from DataFrame dtypes
+        type_map = {
+            "object":  "TEXT",
+            "float64": "DOUBLE PRECISION",
+            "float32": "REAL",
+            "int64":   "BIGINT",
+            "int32":   "INTEGER",
+            "bool":    "BOOLEAN",
+        }
+        col_defs = ", ".join(
+            f'"{col}" {type_map.get(str(df[col].dtype), "TEXT")}'
+            for col in df.columns
+        )
+        cur.execute(f'DROP TABLE IF EXISTS "{table_name}"')
+        cur.execute(f'CREATE TABLE "{table_name}" ({col_defs})')
+
+        # Bulk copy via StringIO CSV
+        buf = io.StringIO()
+        df.to_csv(buf, index=False, header=False, na_rep="\\N")
+        buf.seek(0)
+        cur.copy_expert(
+            f'COPY "{table_name}" ({", ".join(f"{chr(34)}{c}{chr(34)}" for c in df.columns)}) '
+            f"FROM STDIN WITH CSV NULL AS '\\N'",
+            buf,
+        )
+        conn.commit()
+        print(f"  Done — {len(df):,} rows written.")
     except Exception as e:
+        conn.rollback()
         print(f"  Database error: {e}")
+    finally:
+        conn.close()
+
 
 
 def main():
